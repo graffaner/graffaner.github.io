@@ -6,16 +6,16 @@
     "image":"profilepic.jpg",
     "bio":"I'm on a mission to fulfill one of our Alma Mater's core philosophy, \"What Starts Here, Changes the World.\" In preparation to be the catalyst that will create solutions for tomorrow's problems, I have made it a point in my career to pursue a multi-disciplinary background and to be a stakeholder in all parts of a process. I am driven to assimilate, invent, and inspire the next-gen technology that will be perennial.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "Paullee11760@utexas.edu",
-    "phone": "972-922-5489",
+    "email": "",
+    "phone": "",
     "address":{
-      "street":"9801 Stonelake Blvd",
-      "city":"Austin",
-      "state":"Texas",
-      "zip": "78759"
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "",
+    "resumedownload":"",
     "social":[
       {
         "name":"linkedin",
