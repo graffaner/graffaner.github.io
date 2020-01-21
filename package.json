@@ -2,7 +2,7 @@
   "name": "Website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eellaup.github.io/Website/",
+  "homepage": "https://eellaup.github.io/Website",
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.12.0",
