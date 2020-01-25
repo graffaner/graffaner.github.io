@@ -5,61 +5,140 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
+import AboutBrief from './Components/AboutBrief';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
+import Food from './Components/Food';
+import Project from './Components/Project';
 
 class App extends Component {
 
   constructor(props){
     super(props);
+
     this.state = {
       foo: 'bar',
       resumeData: {},
-      about: true,
-      resume: false
+      frontpage: true,
+      resume: false,
+      project: false,
+      food: false
     };
-
     // Google Analytics initialization
     // ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
-
   }
 
-  // initialize resume data funciton
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-      }
-    });
-  }
+  frontpageHandler = () => this.setState({
+    frontpage: true,
+    about: false,
+    resume: false,
+    project: false,
+    food: false
+  })
 
-  // update state if resume data is changed
-  componentDidMount(){
-    this.getResumeData();
-  }
+  aboutHandler = () => this.setState({
+    frontpage: false,
+    about: true,
+    resume: false,
+    project: false,
+    food: false
+  })
+
+  resumeHandler = () => this.setState({
+    frontpage: false,
+    about: false,
+    resume: true,
+    project: false,
+    food: false
+  });
+
+  projectHandler = () => this.setState({
+    frontpage: false,
+    about: false,
+    resume: false,
+    project: true,
+    food: false
+  });
+
+  foodHandler = () => this.setState({
+    frontpage: false,
+    about: false,
+    resume: false,
+    project: false,
+    food: true
+  });
+  
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <div> 
-          {this.state.about 
-          ? <About data={this.state.resumeData.main}/>
+
+        <div>
+          {this.state.frontpage
+          ? <Header 
+            frontpageHandler={this.frontpageHandler}
+            aboutHandler={this.aboutHandler} 
+            resumeHandler={this.resumeHandler} 
+            projectHandler={this.projectHandler}
+            foodHandler={this.foodHandler}
+          />
           : null}
         </div>
-        {/* <Resume data={this.state.resumeData.resume}/> */}
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        {/* <Contact data={this.state.resumeData.main}/> */}
+
+        <div>
+          {this.state.frontpage
+          ? <AboutBrief/>
+          : null}
+        </div>
+
+        <div>
+          {this.state.about
+          ? <About 
+            frontpageHandler={this.frontpageHandler}
+            aboutHandler={this.aboutHandler} 
+            resumeHandler={this.resumeHandler} 
+            projectHandler={this.projectHandler}
+            foodHandler={this.foodHandler}/>
+          : null}
+        </div>
+
+        <div> 
+          {this.state.resume 
+          ? <Resume 
+            frontpageHandler={this.frontpageHandler}
+            aboutHandler={this.aboutHandler} 
+            resumeHandler={this.resumeHandler} 
+            projectHandler={this.projectHandler}
+            foodHandler={this.foodHandler}
+          />
+          : null}
+        </div>
+
+        <div> 
+          {this.state.project 
+          ? <Project 
+            frontpageHandler={this.frontpageHandler}
+            aboutHandler={this.aboutHandler} 
+            resumeHandler={this.resumeHandler} 
+            projectHandler={this.projectHandler}
+            foodHandler={this.foodHandler}
+          />
+          : null}
+        </div>
+
+        <div> 
+          {this.state.food 
+          ? <Food 
+            frontpageHandler={this.frontpageHandler}
+            aboutHandler={this.aboutHandler} 
+            resumeHandler={this.resumeHandler} 
+            projectHandler={this.projectHandler}
+            foodHandler={this.foodHandler}
+          />
+          : null}
+        </div>
+
         <Footer data={this.state.resumeData.main}/>
       </div>
     );

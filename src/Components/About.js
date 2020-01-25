@@ -1,55 +1,62 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Portfolio extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      var projects = this.props.data.projects.map(function(projects){
+        var projectImage = 'images/portfolio/'+projects.image;
+        return <div key={projects.title} className="columns portfolio-item">
+           <div className="item-wrap">
+            <a href={projects.url} title={projects.title}>
+               <img alt={projects.title} src={projectImage} />
+               <div className="overlay">
+                  <div className="portfolio-item-meta">
+                 <h5>{projects.title}</h5>
+                     <p>{projects.category}</p>
+                  </div>
+                </div>
+              <div className="link-icon"><i className="fa fa-link"></i></div>
+            </a>
+          </div>
+        </div>
+      })
     }
 
     return (
-      <section id="about">
+      <section id="portfolio">
+
+      <nav id="nav-wrap">
+
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" className="nav">
+          <li><a className="smoothscroll" href="#home" onClick={this.props.frontpageHandler}>Home</a></li>
+          <li className="current"><a className="smoothscroll" href='#about' onClick={this.props.aboutHandler}>About</a></li>
+          <li><a className="smoothscroll" href='#resume' onClick={this.props.resumeHandler}>Resume</a></li>
+          <li><a className="smoothscroll" href="#projects" onClick={this.props.projectHandler}>Projects</a></li>
+          <li><a className="smoothscroll" href="#food" onClick={this.props.foodHandler}>Food</a></li>
+          
+          {/* <li><a className="smoothscroll" href="#contact" onClick={this.props.contactHandler}>Contact</a></li> */}
+        </ul>
+
+      </nav>
+
       <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
 
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+         <div className="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                {projects}
             </div>
-         </div>
+          </div>
       </div>
-
    </section>
     );
   }
 }
 
-export default About;
+export default Portfolio;
