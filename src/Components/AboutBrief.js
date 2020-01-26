@@ -4,14 +4,14 @@ class About extends Component {
   render() {
    var name = "Paul Lee";
    var profilepic = "images/profilepic.jpg";
-   var bio = "I'm on a mission to fulfill one of our Alma Mater's core philosophy, \"What Starts Here, Changes the World.\" In preparation to be the catalyst that will create solutions for tomorrow's problems, I have made it a point in my career to pursue a multi-disciplinary background and to be a stakeholder in all parts of a process. I am driven to assimilate, invent, and inspire the next-gen technology that will be perennial.";
+   var bio = "I'm on a mission to fulfill one of our Alma Mater's core philosophy, \"What Starts Here, Changes the World.\" In preparation to be the catalyst that will create solutions for tomorrow's problems, I have made it a point in my career to pursue a multi-disciplinary background and be a stakeholder in all parts of a process. I am driven to assimilate, invent, and inspire the next-gen technology that will be perennial.";
    var street = "";
    var city = "";
    var state = "";
    var zip = "";
    var phone= "";
    var email = "";
-   var resumeDownload = "";
+   var resumeDownload = "https://drive.google.com/file/d/1Q6OaZH9FXtHL69kJwFQoHGrgODy9LwMt/view?usp=sharing";
 
     return (
       <section id="aboutBrief">
