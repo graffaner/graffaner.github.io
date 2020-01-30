@@ -10,8 +10,8 @@ class Resume extends Component {
         "degree":"B.S. Mechanical Engineering Honors",
         "graduated":"May 2018, GPA: 3.92",
         "description":[
-          "Specialized and earned a certificate in Mechatronics",
           "Engineering Honors Program: Honors Thesis - Safety Risks with DIY Electric Rideables",
+          "Accolades: Mechatronics Certificate, Engineer-in-Training (EIT 64856)",
           "Clubs & Activities: Tau Beta Pi, ASME"
         ]
       }
@@ -19,10 +19,11 @@ class Resume extends Component {
     "work":[
       {
         "company":"Stealth Mode Start Up",
-        "title":"VP of Engineering",
+        "title":"Engineer #1 | VP of Engineering",
         "years":"Sept 2019 - Present",
         "description":[
-          "Developing innovative safety solutions for battery energy storage devices"
+          "Developing innovative safety solutions for renewable energy storage systems",
+          "Seeded by the NSF SBIR/STTR grant"
         ]
       },
       {
@@ -31,7 +32,9 @@ class Resume extends Component {
         "years":"Jun 2019 - Sept 2019",
         "description":[
           "Was in transit for a formal position as an Associate Data Scientist",
-          "Developed micro-web applications in Python Flask to promote efficient communication of critical information"
+          "Developed micro-web applications in Python Flask to promote efficient communication of critical information",
+          "Analyzed quality metrics in compliance with Tesla's Quality Management System (QMS)",
+          "Utilized Confluence REST API's to autonomously maintain information"
         ]
       },
       {
@@ -40,7 +43,9 @@ class Resume extends Component {
         "years":"Jun 2018 - Jun 2019",
         "description":[
           "Employee of the Quarter - Q3 2018",
-          "Saved the company $10.5M dollars on a single project"
+          "Successfully saved the company $10.5M in the third and fourth quarters of 2018 by coordinating with an engineering team and senior managers to develop and implement an innovative project",
+          "Deployed stand-alone applications in Java, Python, and MySQL as serviceable quality tools",
+          "Maximized efficiency and quality in accordance with the company’s standards by utilizing root-cause analysis and lean manufacturing methodologies in the Model 3 battery module production"
         ]
       },
       {
@@ -48,7 +53,9 @@ class Resume extends Component {
         "title":"Undergraduate Research Assistant",
         "years":"Feb 2017 - May 2018",
         "description":[
-          "Lead Undergraduate student. Developed electro-mechanical systems for testing facilities"
+          "Contributed to research for the automation of a testing facility that simulated indoor flashover fires",
+          "Acted as the leader for a team of undergraduate students, providing mentorship and coaching where needed",
+          "Conducted comprehensive research into the lithium-ion battery degredation"
         ]
       },
       {
@@ -56,7 +63,11 @@ class Resume extends Component {
         "title":"Student Intern",
         "years":"Mar 2016 - Dec 2016",
         "description":[
-          "Performed experiments and created drawings compliant with GD&T"
+          "Expedited the full-cycle of system development, designing, commissioning, fabricating, and assembly of experimental test systems according to exact specifications by utilizing an extensive knowledge of CAD software",
+          "Developed new parts and modified existing parts in PTC Creo CAD software to enhance functionality",
+          "Created accurate engineering drawings by leveraging Geometric Dimensioning and Tolerancing practices",
+          "Maintained an attentive, professional attitude while communicating with vendors to commission custom parts",
+          "Supervised the packaging, shipping, and receiving of custom and original equipment parts"
         ]
       }
     ],
@@ -66,12 +77,122 @@ class Resume extends Component {
         "level":"80%"
       },
       {
+        "name":"Solidworks",
+        "level":"70%"
+      },
+      {
         "name":"Python",
         "level":"70%"
       },
       {
         "name":"MySQL",
         "level":"70%"
+      },
+      {
+        "name":"Raspberry Pi",
+        "level":"70%"
+      },
+      {
+        "name":"Java",
+        "level":"65%"
+      },
+      {
+        "name":"MATLAB",
+        "level":"65%"
+      },
+      {
+        "name":"PTC Creo",
+        "level":"60%"
+      },
+      {
+        "name":"LabVIEW",
+        "level":"60%"
+      },
+      {
+        "name":"React JS",
+        "level":"30%"
+      }
+    ],
+    "courses":[
+      {
+        "number":"ME344",
+        "name":"Dynamic Systems & Controls"
+      },
+      {
+        "number":"ME379M",
+        "name":"Theory/Design of Mechanical Measurements"
+      },
+      {
+        "number":"ME348D",
+        "name":"Mechatronics II"
+      },
+      {
+        "number":"ME348C",
+        "name":"Mechatronics I"
+      },
+      {
+        "number":"ME340",
+        "name":"Mechatronics (Undergrad)"
+      },
+      {
+        "number":"ME679",
+        "name":"Undergraduate Honors Thesis"
+      },
+      {
+        "number":"ME339",
+        "name":"Heat Transfer"
+      },
+      {
+        "number":"ME334",
+        "name":"Materials Engineering"
+      },
+      {
+        "number":"ME338",
+        "name":"Machine Elements"
+      },
+      {
+        "number":"ME330",
+        "name":"Fluid Mechanics"
+      },
+      {
+        "number":"ME318M",
+        "name":"Engineering Computational Methods"
+      },
+      {
+        "number":"ME324",
+        "name":"Dynamics"
+      },
+      {
+        "number":"EM319",
+        "name":"Mechanics of Solids"
+      },
+      {
+        "number":"ME326",
+        "name":"Thermodynamics"
+      },
+      {
+        "number":"M427J",
+        "name":"Differential Equations"
+      },
+      {
+        "number":"M340L",
+        "name":"Linear Algebra"
+      },
+      {
+        "number":"EM306",
+        "name":"Statics"
+      },
+      {
+        "number":"ME353",
+        "name":"Engineering Finance"
+      },
+      {
+        "number":"ME335",
+        "name":"Engineering Statistics"
+      },
+      {
+        "number":"CS312",
+        "name":"Introduction to Programming (Java)"
       }
     ]
   }
@@ -132,6 +253,17 @@ class Resume extends Component {
         </li>
       )
     })
+    var courses = this.resume.courses.map(function(course){
+      return(
+        <li>
+          <div className="course-dot">
+            <p className="course-name"> &#8226;</p>
+          </div>
+          <h4 className="course-number">{course.number}:</h4>
+          <p className="course-name">{course.name}</p>
+        </li>
+      )
+    })
 
     return (
       <section id="resume">
@@ -171,7 +303,7 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Professional Experience</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -199,6 +331,32 @@ class Resume extends Component {
 			</div>
     </div>
 
+{/* Courses Section */}
+      <div className="row course">
+
+        <div className="three columns header-col">
+          <h1><span>Courses</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+          <div className="course-container">
+            <ul className="course-list">
+              {courses}
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+{/* Resume Download */}
+      <div className="row download">
+        <p>
+          <a href='/pdf/Resume_Paul_lee.pdf' className="button" download>
+            <i className="fa fa-download"></i>Download Resume
+          </a>
+        </p>
+      </div>
+      
    </section>
     );
   }

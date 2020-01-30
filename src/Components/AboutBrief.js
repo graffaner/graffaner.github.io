@@ -11,7 +11,7 @@ class About extends Component {
    var zip = "";
    var phone= "";
    var email = "";
-   var resumeDownload = "https://drive.google.com/file/d/1Q6OaZH9FXtHL69kJwFQoHGrgODy9LwMt/view?usp=sharing";
+   var resumeDownload = "https://drive.google.com/file/d/1cm9UuY0VdFVuBkfjotVyGfE_BTl8i1qP/view?usp=sharing";
 
     return (
       <section id="aboutBrief">
@@ -37,7 +37,9 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href='/pdf/Resume_Paul_lee.pdf' className="button" download> 
+                        <i className="fa fa-download"></i>Download Resume
+                     </a>
                   </p>
                </div>
             </div>
