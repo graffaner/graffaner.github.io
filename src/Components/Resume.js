@@ -351,7 +351,7 @@ class Resume extends Component {
 {/* Resume Download */}
       <div className="row download">
         <p>
-          <a href='/pdf/Resume_Paul_lee.pdf' className="button" download>
+          <a href='/images/Resume_Paul_lee.pdf' className="button" download>
             <i className="fa fa-download"></i>Download Resume
           </a>
         </p>
