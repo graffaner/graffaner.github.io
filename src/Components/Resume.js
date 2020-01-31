@@ -198,6 +198,7 @@ class Resume extends Component {
   }
 
   render() {
+    var resumeDownload = "https://drive.google.com/file/d/1cm9UuY0VdFVuBkfjotVyGfE_BTl8i1qP/view?usp=sharing";
     var skillmessage = this.resume.skillmessage;
     var education = this.resume.education.map(function(education){
       return (
@@ -351,7 +352,7 @@ class Resume extends Component {
 {/* Resume Download */}
       <div className="row download">
         <p>
-          <a href='/images/Resume_Paul_lee.pdf' className="button" download>
+          <a href={resumeDownload} className="button" download>
             <i className="fa fa-download"></i>Download Resume
           </a>
         </p>
