@@ -34,7 +34,8 @@ class Resume extends Component {
           "Was in transit for a formal position as an Associate Data Scientist",
           "Developed micro-web applications in Python Flask to promote efficient communication of critical information",
           "Analyzed quality metrics in compliance with Tesla's Quality Management System (QMS)",
-          "Utilized Confluence REST API's to autonomously maintain information"
+          "Utilized Confluence REST API's to autonomously maintain information",
+          "Other: Offered formal position as an Associate Process Engineer for the Model 3 Drive Unit"
         ]
       },
       {
@@ -43,7 +44,7 @@ class Resume extends Component {
         "years":"Jun 2018 - Jun 2019",
         "description":[
           "Employee of the Quarter - Q3 2018",
-          "Successfully saved the company $10.5M in the third and fourth quarters of 2018 by coordinating with an engineering team and senior managers to develop and implement an innovative project",
+          "Successfully saved the company $10.5M in the third and fourth quarters of 2018 by coordinating with an engineering team and senior managers to develop and implement a new production line",
           "Deployed stand-alone applications in Java, Python, and MySQL as serviceable quality tools",
           "Maximized efficiency and quality in accordance with the company’s standards by utilizing root-cause analysis and lean manufacturing methodologies in the Model 3 battery module production"
         ]
@@ -226,14 +227,19 @@ class Resume extends Component {
     var work = this.resume.work.map(function(work){
       return (
         <div key={work.company}>
+          {/* Company Name */}
           <h3>{work.company}</h3>
+
           <p className="info">
+            {/* Job Position */}
             {work.title}
             <span>&bull;</span> 
+            {/* Time Period */}
             <em className="date">
               {work.years}
             </em>
           </p>
+          {/* Job Description Bullet Points */}
           <ul className="desc">
             {work.description.map(function(desc){
               return(
