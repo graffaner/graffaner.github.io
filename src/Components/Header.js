@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header id="home">
 
-      <nav id="nav-wrap">
+      <nav id="nav-wrap" className="opaque">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>

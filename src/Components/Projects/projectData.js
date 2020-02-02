@@ -1,8 +1,18 @@
+import React from 'react';
+
 const projectData = [
     {
         name: 'E-Skateboard',
         icon: 'fa fa-bolt',
-        text: 'Coming Soon...'
+        text: (
+            <div>
+                <h1>
+                    Honors Thesis - Safety Risks with DIY Lithium-based Rideables
+                </h1>
+
+                <img src='/images/skateboard-graph.png' />
+            </div>
+        )
     },
     {
         name: 'Fire Fighting Robot',

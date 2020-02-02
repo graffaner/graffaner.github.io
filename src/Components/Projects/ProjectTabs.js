@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import projectData from './projectData';
 
-class Tabs extends React.Component {
+class Tabs extends Component {
     constructor() {
         super();
 
@@ -70,7 +70,8 @@ class TabContent extends React.Component {
         let content = this.props.data.map((item, index) => {
             return (
                 <div className={'tabs-textItem ' + (activeClass === index ? 'show' : '')} >
-                    <p>{item.text}</p>
+                    {/* <p>{item.text}</p> */}
+                    {item.text}
                 </div>
             )
         });

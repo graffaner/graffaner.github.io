@@ -183,7 +183,6 @@ ul#nav li a {
 /* ul#nav li a:active { background-color: transparent !important; } */
 ul#nav li.current a { color: #F06000; }
 
-
 /* ------------------------------------------------------------------ */
 /* c. About Brief Section
 /* ------------------------------------------------------------------ */
@@ -203,30 +202,36 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
    margin-bottom: 12px;
 }
+
 #aboutBrief p {
    line-height: 30px;
    color: #7A7A7A;
 }
+
 #aboutBrief .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
+
 #aboutBrief .contact-details { width: 41.66667%; }
 #aboutBrief .download {
    width: 58.33333%;
    padding-top: 6px;
 }
+
 #aboutBrief .main-col { padding-right: 5%; }
 #aboutBrief .download .button {
    margin-top: 6px;
    background: #444;
 }
+
 #aboutBrief .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
+
 #aboutBrief .download .button i {
    margin-right: 15px;
    font-size: 20px;
