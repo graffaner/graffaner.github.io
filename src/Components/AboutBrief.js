@@ -10,7 +10,7 @@ class About extends Component {
    var state = "";
    var zip = "";
    var phone= "";
-   var email = "";
+   var email = "Paullee11760@gmail.com";
    var resumeDownload = "https://drive.google.com/file/d/1cm9UuY0VdFVuBkfjotVyGfE_BTl8i1qP/view?usp=sharing";
 
     return (
@@ -27,12 +27,16 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
+						   {/* <span>{name}</span><br /> */}
+						   {/* <span>{street}<br />
 						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     </span><br /> */}
+						   {/* <span>{phone}</span><br /> */}
+                     <a href="mailto:paullee11760@gmail.com" >
+                        <span>
+                           {email}
+                        </span>
+                     </a>
 					   </p>
                </div>
                <div className="columns download">

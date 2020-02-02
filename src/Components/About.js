@@ -27,6 +27,10 @@ class Portfolio extends Component {
 
         <h1>Who Am I?</h1>
 
+        <p>
+          
+        </p>
+
         <img src="/images/laying_on_tree.jpg" />
   
       </div>

@@ -17,13 +17,13 @@ class Footer extends Component {
            <ul className="social-links">
             <li key="linkedin">
               <a href="https://www.linkedin.com/in/pjl655/">
-                <i className="fa fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
 
             <li key="github">
               <a href="https://www.github.com/Eellaup">
-                <i className="fa fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </li>
            </ul>

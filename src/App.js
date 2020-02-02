@@ -6,10 +6,10 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import AboutBrief from './Components/AboutBrief';
-import Resume from './Components/Resume';
+import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact';
 import Food from './Components/Food';
-import Project from './Components/Project';
+import Projects from './Components/Projects/Projects';
 
 class App extends Component {
 
@@ -117,7 +117,7 @@ class App extends Component {
 
         <div> 
           {this.state.project 
-          ? <Project 
+          ? <Projects 
             frontpageHandler={this.frontpageHandler}
             aboutHandler={this.aboutHandler} 
             resumeHandler={this.resumeHandler} 
