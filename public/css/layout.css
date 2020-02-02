@@ -142,7 +142,14 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+
+/* Transparent Navbar background for header page */
+.headerNav { 
+   background-color: transparent
+}
+
+/* Navbar background for Components */
+.compNav { background-color: #333; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -178,6 +185,10 @@ ul#nav li a {
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
+}
+
+.compNav ul#nav li a{
+   color: #11ABB0
 }
 
 /* ul#nav li a:active { background-color: transparent !important; } */

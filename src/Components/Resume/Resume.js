@@ -81,7 +81,7 @@ class Resume extends Component {
     return (
       <section id="resume">
       
-        <nav id="nav-wrap">
+        <nav id="nav-wrap" className="compNav">
 
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
