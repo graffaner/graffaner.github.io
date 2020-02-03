@@ -25,9 +25,7 @@ class Projects extends Component {
 
         <div className="row">
 
-          {/* <div className="twelve columns collapsed">
-            <h1>Projects</h1>
-          </div> */}
+          <h1> Personal & Professional Projects </h1>
 
           <ProjectTabs/>
 

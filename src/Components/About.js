@@ -25,10 +25,10 @@ class Portfolio extends Component {
 
       <div className="row">
 
-        <h1>Who Am I?</h1>
+        <h1>Coming Soon</h1>
 
         <p>
-          
+         
         </p>
 
         <img src="/images/laying_on_tree.jpg" />

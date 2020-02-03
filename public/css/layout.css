@@ -16,7 +16,9 @@
    h. Contact Section
    i. Footer
    j. About Section
-   k. Project Tabs Section
+   k. Project Section
+   l. Project Tabs Section
+  
 
 ===================================================================== */
 
@@ -145,7 +147,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* Transparent Navbar background for header page */
 .headerNav { 
-   background-color: transparent
+   background-color: transparent;
 }
 
 /* Navbar background for Components */
@@ -188,7 +190,7 @@ ul#nav li a {
 }
 
 .compNav ul#nav li a{
-   color: #11ABB0
+   color: #11ABB0;
 }
 
 /* ul#nav li a:active { background-color: transparent !important; } */
@@ -494,7 +496,7 @@ ul#nav li.current a { color: #F06000; }
 #portfolio a:hover, #portfolio a:focus { color: #313131; }
 
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 30px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -1105,7 +1107,53 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 /* ------------------------------------------------------------------ */
-/* k. Project Tabs Section
+/* k. Project Section
+/* ------------------------------------------------------------------ */
+
+.projectPic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width:65%;
+}
+
+.projectPic-wide {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width:90%;
+}
+
+/* img tags in the project data section */
+.projectBox img {
+   border-radius: 4%;
+}
+
+.projectBox figcaption {
+   font-size: 15px;
+   font-family: 'Carter One', cursive;
+}
+
+.projectBox h1 {
+   font-size: 25px !important;
+   font-weight: normal !important;
+   font-family: 'Carter One', cursive !important;
+   color: #fff !important;
+}
+
+.projectBox p {
+   display: block !important;
+   margin-left: 50px !important;
+   margin-right: 50px !important;
+   font-size: 15px !important;
+   font-weight: normal !important;
+   font-family: 'Carter One', cursive !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* l. Project Tabs Section
 /* ------------------------------------------------------------------ */
 
 .title {
@@ -1115,7 +1163,7 @@ footer .social-links li:first-child { margin-left: 0; }
  }
 
  .title span {
-   color: #5DADE2;
+   color: #fff;
  }
  
 .content {
@@ -1139,9 +1187,10 @@ footer .social-links li:first-child { margin-left: 0; }
 .tabs-header li > a {
    display: block;
    padding: 15px;
-   background: #212F3D;
+   background: rgb(2, 74, 102);
    transition: all .2s ease-in;
    transform: skew(-40deg);
+   color: rgba(255, 255, 255, 0.623) !important;
 }
 
 .tabs-header li > a span {
@@ -1150,12 +1199,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .tabs-header li > a:hover {
-   background: #2471A3;
-   color: #F7F9F9;
+   background: rgb(144, 146, 148);
+   color: rgb(11, 12, 12) !important;
 }
 
 .tabs-header li.active > a {
-   background: #2471A3;
+   /* background: rgb(126, 128, 129); */
+   background: rgba(14, 174, 223, 0.856);
 }
 
 .tabs-content {
@@ -1163,7 +1213,9 @@ footer .social-links li:first-child { margin-left: 0; }
    position: relative;
    padding: 20px 25px;
    overflow: hidden;
-   background: #000;
+   /* background: rgb(59, 58, 58); */
+   background: rgb(2, 74, 102);
+   border-radius: 3%;
 }
 
 .tabs-content .tabs-textItem {
