@@ -25,7 +25,7 @@ const projectData = [
                     <br/> <br/>
                     In the summer after my second-year (2016) in college, I made a homemade electric skateboard to accomodate my ambivalence to walking to class.
                     <br/><br/>
-                    Walking to class in Texas heat across "The Forty Acres," which now stretches to 431 acres, was every student's biggest dread. Alternative to walking, other options were biking, skateboarding, riding the bus, or skipping class, which seemed to be the most popular option. (Note: This was before all the electric scooters and cheaper modes of transportation existed.)
+                    Walking to class in Texas heat across "The Forty Acres," which now stretches 431 acres, was every student's biggest dread. Alternative to walking, other options were biking, skateboarding, riding the bus, or skipping class, which seemed to be the most popular option. (Note: This was before all the electric scooters and cheaper modes of transportation existed.)
                     <br/><br/>
                     My ideal alternative was something that didn't require a lot of physical strain, while being portable enough carry into class. Parking even for bikes were limited.
                     <br/><br/>
