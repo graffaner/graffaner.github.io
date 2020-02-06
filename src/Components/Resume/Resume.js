@@ -4,6 +4,10 @@ import resume from './resumeData';
 
 class Resume extends Component {
 
+  toResume = () => {
+    window.location = '/pdf/Resume_Paul_Lee.pdf'
+  }
+
   render() {
     var resumeDownload = "https://drive.google.com/file/d/1cm9UuY0VdFVuBkfjotVyGfE_BTl8i1qP/view?usp=sharing";
     var skillmessage = resume.skillmessage;
@@ -27,6 +31,25 @@ class Resume extends Component {
             })
             }
           </ul>
+          {/* Other */}
+          {education.othertitle.map(function(other){
+            var key = other
+            var value = education["otherdesc"][key]
+            return(
+              <div>
+                {key}
+                <ul className="desc">
+                  {value.map(function(val){
+                    return(
+                      <li>{val}</li>
+                    )
+                  })}
+                </ul>
+              </div>
+            )
+          })
+          }
+
         </div>
       )
     })
@@ -164,7 +187,7 @@ class Resume extends Component {
 {/* Resume Download */}
       <div className="row download">
         <p>
-          <a href={resumeDownload} className="button" download>
+          <a href="javascript:void(0)" onClick={this.toResume} className="button">
             <i className="fa fa-download"></i>Download Resume
           </a>
         </p>

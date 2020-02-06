@@ -8,8 +8,17 @@ const resume = {
         "description":[
           "Engineering Honors Program: Honors Thesis - Safety Risks with DIY Electric Rideables",
           "Accolades: Mechatronics Certificate, Engineer-in-Training (EIT 64856)",
-          "Clubs & Activities: Tau Beta Pi, ASME"
-        ]
+          "Clubs & Activities: Tau Beta Pi, ASME",
+        ],
+        "othertitle":[
+          "Graduate School Admission (2018)"
+        ],
+        "otherdesc":{
+          "Graduate School Admission (2018)":[
+            "Georgia Tech joint with Seoul National University",
+            "University of Michigan"
+          ]
+        }
       }
     ],
     "work":[
