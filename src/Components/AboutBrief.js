@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 
 class About extends Component {
+
+   toResume = () => {
+      window.location = '/pdf/Resume_Paul_Lee.pdf'
+   }
+
   render() {
    var name = "Paul Lee";
    var profilepic = "images/profilepic.jpg";
@@ -41,7 +46,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" download> 
+                     <a href="javascript:void(0)" onClick={this.toResume} className="button" download> 
                         <i className="fa fa-download"></i>Download Resume
                      </a>
                   </p>
