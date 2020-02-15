@@ -25,7 +25,7 @@ const projectData = [
                     <br/> <br/>
                     In the summer after my second-year (2016) in college, I made a homemade electric skateboard to accomodate my ambivalence to walking to class.
                     <br/><br/>
-                    Walking to class in Texas heat across "The Forty Acres," which now stretches 431 acres, was every student's biggest dread. Alternative to walking, other options were biking, skateboarding, riding the bus, or skipping class, which seemed to be the most popular option. (Note: This was before all the electric scooters and cheaper modes of transportation existed.)
+                    Walking to class in Texas heat across "The Forty Acres," which now stretches 431 acres, was every student's biggest dread. Alternative to walking, other options were biking, bus commuting, or skipping class, which seemed to be the most popular option. (Note: This was before all the electric scooters and cheaper modes of transportation existed.)
                     <br/><br/>
                     My ideal alternative was something that didn't require a lot of physical strain, while being portable enough carry into class. Parking, even for bikes, was limited.
                     <br/><br/>
@@ -38,11 +38,81 @@ const projectData = [
                     Electric Skateboard Version 1
                 </h1>
 
+                <div className="projectPic-wide">
+                    <img src="/images/board_v1.jpg" />
+                    <figcaption> 
+                        Electric Skateboard Version 1 (2016)
+                    </figcaption>
+                </div>
+
                 <hr/>
 
                 <h1>
                     Electric Skateboard Version 2
                 </h1>
+
+                <div className="projectPic-wide">
+                    <img src="/images/board_v2.jpg" />
+                    <figcaption> 
+                        Electric Skateboard Version 2 (2017)
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_mill.jpg" />
+                    <figcaption> 
+                        Milling a flat surface
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_box.jpg" />
+                    <figcaption> 
+                        Board with box perimeter
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_box2.jpg" />
+                    <figcaption> 
+                        Box perimeter glued to board
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_carbonfiber.jpg" />
+                    <figcaption> 
+                        Carbon fiber wrap bottom
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_carbonfiber_top.jpg" />
+                    <figcaption> 
+                        Carbon fiber wrap top
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_cf_boxlid.jpg" />
+                    <figcaption> 
+                        Partial Assembly
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_side.jpg" />
+                    <figcaption> 
+                        Full Assembly
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/boardv2_studio.jpg" />
+                    <figcaption> 
+                        Studio Assembly
+                    </figcaption>
+                </div>
                 
                 <hr/>
 
@@ -61,9 +131,29 @@ const projectData = [
         )
     },
     {
-        name: 'Fire Fighting Robot',
+        name: 'USAR Robot',
         icon: 'fa fa-robot',
-        text: 'Coming Soon...'
+        text: (
+            <div className="projectBox">
+                <h1> 
+                    Urban Search and Rescue Robot
+                </h1>
+
+                <p>
+                    Project Motivation:
+                    <br/><br/>
+                    In our senior design course, we were tasked with developing a robot capable of performing urban search and rescue (USAR) operations within a burning building. The setting for the USAR operation was to aid firefighters by locating an incapacited person/pet in a smokey high-temperature environment. 
+                    <br/><br/>
+                    Design Constraints:
+                    <br/><br/>
+                    Concept Generation:
+                    <br/><br/>
+                    Pugh Chart:
+                    <br/><br/>
+                    
+                </p>
+            </div>
+        )
     },
     {
         name: 'Maze Robot',

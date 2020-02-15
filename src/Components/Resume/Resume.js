@@ -38,7 +38,7 @@ class Resume extends Component {
             return(
               <div>
                 {key}
-                <ul className="desc">
+                <ul className="other">
                   {value.map(function(val){
                     return(
                       <li>{val}</li>
