@@ -283,6 +283,11 @@ ul#nav li.current a { color: #F06000; }
 #resume .desc{
    list-style-type: circle;
 }
+
+#resume .other{
+   list-style-type: square;
+}
+
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -1098,12 +1103,24 @@ footer .social-links li:first-child { margin-left: 0; }
 #about a:hover, #about a:focus { color: #313131; }
 
 #about h1 {
-   font: 24px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
+   font: 24px/24px 'opensans-semibold', sans-serif !important;
+   text-transform: uppercase !important;
+   letter-spacing: 1px !important;
+   text-align: center !important;
+   margin-bottom: 48px !important;
    color: rgb(8, 8, 8);
+}
+
+#about img {
+   border-radius: 4%;
+}
+
+#about .portrait {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   width: 50%;
 }
 
 /* ------------------------------------------------------------------ */
