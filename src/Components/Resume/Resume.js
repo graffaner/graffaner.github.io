@@ -119,6 +119,8 @@ class Resume extends Component {
             {/* <li><a className="smoothscroll" href="#contact" onClick={this.props.contactHandler}>Contact</a></li> */}
           </ul>
         </nav>
+        
+        <div id="home"></div>
 
 {/* Education */}
         <div className="row education">

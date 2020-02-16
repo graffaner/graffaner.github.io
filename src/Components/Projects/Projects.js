@@ -23,6 +23,8 @@ class Projects extends Component {
 
         </nav>
 
+        <div id="home"></div>
+
         <div className="row">
 
           <h1> Personal & Professional Projects </h1>

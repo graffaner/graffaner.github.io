@@ -23,7 +23,6 @@ class Portfolio extends Component {
     })
 
     return (
-      
       <section id="about">
 
         <nav id="nav-wrap" className="compNav">
@@ -43,18 +42,16 @@ class Portfolio extends Component {
 
         </nav>
 
-        <div id="home"></div>
-
         <div className="row">
 
           <div className="column">
-            <p>
-              <img className="portrait" src="/images/aboutme.jpg" />
-              <h1>About Me</h1>
-              {aboutme}
-            </p>
+            <img className="portrait" src="/images/aboutme.jpg" />
           </div>
 
+          <div className="column">
+            <h1>About Me</h1>
+            {aboutme}
+          </div>
 
           {/* <img src="/images/laying_on_tree.jpg" /> */}
         </div>
