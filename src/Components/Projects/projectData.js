@@ -58,7 +58,7 @@ const projectData = [
                     </figcaption>
                 </div>
 
-                <div className="projectPic-wide">
+                {/* <div className="projectPic-wide">
                     <img src="/images/boardv2_mill.jpg" />
                     <figcaption> 
                         Milling a flat surface
@@ -98,21 +98,21 @@ const projectData = [
                     <figcaption> 
                         Partial Assembly
                     </figcaption>
-                </div>
+                </div> */}
 
-                <div className="projectPic-wide">
+                {/* <div className="projectPic-wide">
                     <img src="/images/boardv2_side.jpg" />
                     <figcaption> 
                         Full Assembly
                     </figcaption>
-                </div>
+                </div> */}
 
-                <div className="projectPic-wide">
+                {/* <div className="projectPic-wide">
                     <img src="/images/boardv2_studio.jpg" />
                     <figcaption> 
                         Studio Assembly
                     </figcaption>
-                </div>
+                </div> */}
                 
                 <hr/>
 

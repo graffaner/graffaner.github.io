@@ -66,15 +66,17 @@ class Portfolio extends Component {
             <h1>Why Mechanical Engineering?</h1>
 
             <p>
-              {aboutData.why_meche}
+              Coming Soon...
+              {/* {aboutData.why_meche} */}
             </p>
 
             <h1>Interests?</h1>
 
             <p>
-              <ul>
+              Coming Soon...
+              {/* <ul>
                 {interests}
-              </ul>
+              </ul> */}
             </p>
           </div>
         </div>
