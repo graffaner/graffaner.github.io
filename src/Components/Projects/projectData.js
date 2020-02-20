@@ -156,13 +156,13 @@ const projectData = [
         )
     },
     {
-        name: 'Maze Robot',
-        icon: 'fa fa-map-marked-alt',
+        name: 'Home Cloud Network',
+        icon: 'fa fa-cloud',
         text: 'Coming Soon...'
     },
     {
-        name: '3D Printer',
-        icon: 'fa fa-print',
+        name: 'Maze Robot',
+        icon: 'fa fa-map-marked-alt',
         text: 'Coming Soon...'
     }
 ];
