@@ -14,6 +14,16 @@ class Portfolio extends Component {
       )
     })
 
+    var why_meche = aboutData.why_meche.map(function(item){
+      return(
+        <div>
+          <p>
+            {item}
+          </p>
+        </div> 
+      )
+    })
+
     var interests = aboutData.interests.map(function(int){
       return (
         <li>
@@ -67,7 +77,7 @@ class Portfolio extends Component {
 
             <p>
               Coming Soon...
-              {/* {aboutData.why_meche} */}
+              {/* {why_meche} */}
             </p>
 
             <h1>Interests?</h1>

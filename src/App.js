@@ -25,7 +25,7 @@ class App extends Component {
       food: false
     };
     // Google Analytics initialization
-    // ReactGA.initialize('UA-110570651-1');
+    ReactGA.initialize('UA-158878203-1');
     ReactGA.pageview(window.location.pathname);
   }
 
