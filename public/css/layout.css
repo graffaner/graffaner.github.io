@@ -1126,14 +1126,14 @@ footer .social-links li:first-child { margin-left: 0; }
    text-transform: uppercase !important;
    letter-spacing: 1px !important;
    text-align: center !important;
-   margin-bottom: 8px !important;
+   margin-bottom: 1px !important;
    color: rgb(8, 8, 8);
 }
 
 #about p {
    font-size: 15px !important;
    text-align: justify;
-   margin-bottom: 9px;
+   margin-bottom: 7px;
 }
 
 #about img {
