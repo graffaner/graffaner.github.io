@@ -83,10 +83,11 @@ class Portfolio extends Component {
 
         <br/>
 
-        <h1>Interests?</h1>
+        {/* <h1>Interests?</h1>
+
         <div className="interest-card">
           
-        </div>
+        </div> */}
 
         {/* <div className="row">
           <div className="column">
