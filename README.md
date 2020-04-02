@@ -1,1 +1,3 @@
 # Website
+
+npm run deploy

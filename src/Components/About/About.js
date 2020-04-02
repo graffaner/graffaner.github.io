@@ -78,17 +78,30 @@ class Portfolio extends Component {
             <p>
               {why_meche}
             </p>
+          </div>
+        </div>
 
+        <br/>
+
+        <h1>Interests?</h1>
+        <div className="interest-card">
+          
+        </div>
+
+        {/* <div className="row">
+          <div className="column">
             <h1>Interests?</h1>
 
             <p>
-              Coming Soon...
-              {/* <ul>
+              <img className="interest-img" src="/images/tennis.jpg"/>
+              <img className="interest-img" src="/images/tennis.jpg"/>
+              <img className="interest-img" src="/images/tennis.jpg"/>
+              <ul>
                 {interests}
-              </ul> */}
+              </ul>
             </p>
           </div>
-        </div>
+        </div> */}
 
       </section>
     

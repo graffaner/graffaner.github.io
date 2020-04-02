@@ -139,6 +139,13 @@ const projectData = [
                     Urban Search and Rescue Robot
                 </h1>
 
+                <div className="projectPic-wide">
+                    <img src="/images/usar.jpg" />
+                    <figcaption> 
+                        Robot at the Competition Finals
+                    </figcaption>
+                </div>
+
                 <p>
                     Project Motivation:
                     <br/><br/>

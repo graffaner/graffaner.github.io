@@ -28,7 +28,7 @@ const resume = {
         "years":"Sept 2019 - Present",
         "description":[
           "Developing innovative safety solutions for renewable energy storage systems",
-          "Seeded by the NSF SBIR/STTR grant"
+          "Seeded by the NSF STTR grant"
         ]
       },
       {
@@ -62,6 +62,14 @@ const resume = {
           "Contributed to research for the automation of a testing facility that simulated indoor flashover fires",
           "Acted as the leader for a team of undergraduate students, providing mentorship and coaching where needed",
           "Conducted comprehensive research into the lithium-ion battery degredation"
+        ]
+      },
+      {
+        "company":"iKids, Inc.",
+        "title":"Robotics Instructor",
+        "years":"Aug 2017 - Dec 2017",
+        "description":[
+          "Engaged elementary students in STEM fields through Lego Mindstorms NXT robotic kits."
         ]
       },
       {
