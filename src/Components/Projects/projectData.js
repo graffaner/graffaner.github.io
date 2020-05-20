@@ -247,7 +247,7 @@ const projectData = [
                             <img className="portrait" src="/images/dumbbells_handle.jpg" />
                             For the handle I decided to use a wooden dowel rod (the same rod that goes in a closet hanging rack) as my handle. I figured since the length of the handle will be so short, there wouldn't be a significant amount of bending moment to snap it. If we were aiming to make a barbell, it'd be better to change the material to a type of metal.
                             <br/> <br/>
-                            At Home Depot I had an associate cut my 48in length rod cut it into lengths of 14in. I was left with (3x) 14ins and (1x) 6in.
+                            At Home Depot I had an associate cut my 48in length rod into segments of 14in. I was left with (3x) 14ins and (1x) 6in.
                             <br/> <br/>
                             Since concrete doesn't adhere very well to wood, we'll need to add T's to each end of the handle to make sure the concrete slabs dont slip off. We'll use 1/4in-20 x 3in bolts to create the T's. I drilled a 1/4in hole about 1.5in away from each end. It's important when drilling these holes to make it as clean as possible. Any cracks could propagate and compromise the integrity of your handle.
                         </p>
@@ -261,7 +261,7 @@ const projectData = [
                 <p>
                     Mixing Tip:
                     <br/> <br/>
-                    The mixing process is a bit of a pain. Do not put all the concrete mix in the bucket and add water. The top layer will moisturize and trap all the water. Instead add a little bit of concrete mix and water at a time until all of the mix is dissolved. I used the extra dowel rod piece as my mixing stick. Repeat this until you've reached the desired volume. In my case, 3.37 quarts.
+                    The mixing process is a bit of a pain. Do not put all the concrete mix in the bucket and add water. The top layer will become saturated and trap all the water at the top. Instead add a little bit of concrete mix and water at a time until all of the mix is dissolved. I used the extra dowel rod piece as my mixing stick. Repeat this until you've reached the desired volume. In my case, 3.37 quarts.
                     <br/> <br/>
                     Part 1
                     <br/> <br/>
