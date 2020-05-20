@@ -14,6 +14,7 @@ class Tabs extends Component {
         this.changeTabOnClick = this.changeTabOnClick.bind(this);
     }
 
+    // Change tabs on click
     changeTabOnClick(index) {
         this.setState({
             activeTab: index
@@ -23,9 +24,11 @@ class Tabs extends Component {
     render() {
         return (
             <div className="tabs-body">
+                {/* Tab Header */}
                 <TabHeader data={this.state.data}
                               click={this.changeTabOnClick}
                               activeId={this.state.activeTab} />
+                {/* Tab Data */}
                 <TabContent data={this.state.data}
                                activeId={this.state.activeTab} />
             </div>
@@ -46,7 +49,7 @@ class TabHeader extends React.Component {
                         <a onClick={this.doClick.bind(this, index)} >
                             {/* The Span tilts the boxes */}
                             <span>
-                                {/* div puts a new line */}
+                                {/* div puts a new line (icon above title) */}
                                 <div>
                                     <i className={item.icon}></i>
                                 </div>

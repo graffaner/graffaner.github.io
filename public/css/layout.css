@@ -505,13 +505,14 @@ ul#nav li.current a { color: #F06000; }
 #portfolio a:hover, #portfolio a:focus { color: #313131; }
 
 #portfolio h1 {
+   width: 100%;
    font: 30px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center !important;
    margin-bottom: 48px;
    color: #95A3A3;
-}
+} 
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -1183,6 +1184,7 @@ footer .social-links li:first-child { margin-left: 0; }
    width:65%;
 }
 
+/* The widest picture */
 .projectPic-wide {
    display: block;
    margin-left: auto;
@@ -1204,6 +1206,13 @@ footer .social-links li:first-child { margin-left: 0; }
 .projectBox h1 {
    font-size: 25px !important;
    font-weight: normal !important;
+   text-align: center !important;
+   font-family: 'Carter One', cursive !important;
+   color: #fff !important;
+}
+
+.projectBox h3 {
+   font-weight: normal !important;
    font-family: 'Carter One', cursive !important;
    color: #fff !important;
 }
@@ -1215,6 +1224,53 @@ footer .social-links li:first-child { margin-left: 0; }
    font-size: 15px !important;
    font-weight: normal !important;
    font-family: 'Carter One', cursive !important;
+}
+
+.project-table {
+   margin-left: auto !important;
+   margin-right: auto !important;
+   font-size: 20px !important;
+   font-weight: normal !important;
+   font-family: 'Carter One', cursive !important;
+   text-align: left;
+   width:80% !important;
+}
+
+.project-table th {
+   font-size: 23px !important;
+   color: white !important;
+}
+
+.project-table .table-total{
+   font-size: 23px !important;
+}
+
+#portfolio .row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+#portfolio .column {
+   display: flex;
+   flex-direction: column;
+   flex-basis: 100%;
+   flex: 1;
+}
+
+#portfolio .portrait {
+   float: left !important;
+   display: block;
+   margin-left: auto;
+   margin-right: 20px;
+   text-align: left;
+   width: 50%;
+   /* margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); */
 }
 
 /* ------------------------------------------------------------------ */
