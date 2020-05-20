@@ -232,7 +232,7 @@ const projectData = [
                 <p>
                     According to the <a href="https://images.homedepot-static.com/catalog/pdfImages/9e/9e7f42ef-11a6-4cfb-ab44-5c4663f75dc2.pdf">Quikrete product description</a>, 60lbs of concrete mix yields about 0.45 cu ft.
                     <br/> <br/>
-                    Therefore, the density (mass/volume) is approximately 4.456 lb/qt (we're buying a quart sized bucket, so might as use quarts). Use this density to size how heavy you want your dumbbells.
+                    Therefore, the density (mass/volume) is approximately 4.456 lb/qt (we're buying a quart sized bucket, so might as well use quarts). Use this density to size how heavy you want your dumbbells.
                     <br/> <br/>
                     I aimed for about 30lb dumbbells (15lbs on each side), so I'll need about 3.37 quarts of concrete mix on each side. 
                 </p>
