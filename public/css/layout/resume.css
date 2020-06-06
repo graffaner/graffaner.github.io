@@ -1,0 +1,236 @@
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+ }
+ 
+ #resume a, #resume a:visited  { color: #11ABB0; }
+ #resume a:hover, #resume a:focus { color: #313131; }
+ 
+ #resume h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ #resume h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+ }
+ #resume h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+ }
+ 
+ #resume .header-col { padding-top: 9px; }
+ #resume .main-col { padding-right: 10%; }
+ 
+ #resume .desc{
+    list-style-type: circle;
+ }
+ 
+ #resume .other{
+    list-style-type: square;
+ }
+ 
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+ #resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+ #resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ #resume .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+ 
+ /*----------------------------------------------*/
+ /*	Skill Bars
+ /*----------------------------------------------*/
+ 
+ .bars {
+     width: 95%;
+     float: left;
+     padding: 0;
+     text-align: left;
+ }
+ .bars .skills {
+       margin-top: 36px;
+    list-style: none;
+ }
+ .bars li {
+    position: relative;
+       margin-bottom: 60px;
+       background: #ccc;
+       height: 10px;
+       border-radius: 3px;
+ }
+ .bars li em {
+     font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+     text-transform: uppercase;
+    letter-spacing: 2px;
+     font-weight: normal;
+    position: relative;
+     top: -36px;
+ }
+ .bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+ 
+    margin: 0;
+    padding-right: 24px;
+       background: #313131;
+    display: inline-block;
+       height: 10px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+ }
+ /*
+ .git {
+       -moz-animation: git 2s ease;
+       -webkit-animation: git 2s ease;
+ }
+ .illustrator {
+       -moz-animation: illustrator 2s ease;
+       -webkit-animation: illustrator 2s ease;
+ }
+ .reactjs {
+       -moz-animation: reactjs 2s ease;
+       -webkit-animation: reactjs 2s ease;
+ }
+ .css {
+       -moz-animation: css 2s ease;
+       -webkit-animation: css 2s ease;
+ }
+ .html5 {
+       -moz-animation: html5 2s ease;
+       -webkit-animation: html5 2s ease;
+ }
+ .vuejs {
+       -moz-animation: vuejs 2s ease;
+       -webkit-animation: vuejs 2s ease;
+ }
+ .mongodb {
+       -moz-animation: mongodb 2s ease;
+       -webkit-animation: mongodb 2s ease;
+ }
+ 
+ @-moz-keyframes git {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-moz-keyframes illustrator {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-moz-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-moz-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes vuejs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes mongodb {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ 
+ @-webkit-keyframes photoshop {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes illustrator {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-webkit-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes vuejs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes mongodb {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }  */
+ 
+ #resume .course-container .course-list {
+    text-align: center;
+ }
+ 
+ .course-container .course-list .course-number {
+    display: inline;
+    letter-spacing: 0.25em;
+    white-space: nowrap;
+    font-size: 0.9em;
+    text-transform: uppercase;
+ }
+ 
+ .course-container .course-list .course-name {
+    display: inline;
+    font-family: "Raleway", Helvetica, sans-serif;
+    letter-spacing: 0.25em;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 2.5;
+    /* margin-top: -1em; */
+    text-transform: uppercase;
+ }
+ 
+ .course-container .course-list .course-dot {
+    display: inline;
+ }
+ 
+ .course-container ul li {
+    display: inline;
+ }
+ 
+ #resume .download {
+    text-align: center;
+ }
+ 
+ #resume .download .button {
+    margin-top: 6px;
+    background: #444;
+ }
+ #resume .download .button:hover {
+    background: rgb(122, 120, 120);
+    color: #2B2B2B;
+ }
+ #resume .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+ }

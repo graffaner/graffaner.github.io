@@ -1,0 +1,131 @@
+/* ------------------------------------------------------------------ */
+/* About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+ }
+ 
+ #about a, #about a:visited  { color: #11ABB0; }
+ #about a:hover, #about a:focus { color: #313131; }
+ 
+ #about .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ 
+ #about .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+ }
+ 
+ #about h1 {
+    font-size: 28px !important;
+    font-weight: normal !important;
+    font-family: 'Bungee', serif;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    text-align: center !important;
+    margin-bottom: 1px !important;
+    color: rgb(8, 8, 8);
+ }
+ 
+ #about p {
+    font-size: 15px !important;
+    text-align: justify;
+    margin-bottom: 7px;
+ }
+ 
+ #about img {
+    border-radius: 4%;
+ }
+ 
+ #about .floated{
+    float: left !important;
+    /* width: 150px; */
+ }
+ 
+ #about .portrait {
+    float: left !important;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    text-align: left;
+    width: 50%;
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+ }
+ 
+ #about .interest-card {
+    width: 30%;
+    height: 400px;
+    margin-top: 2%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #efefef;
+    margin-bottom: 2%;
+  }
+
+/* ------------------------------------------------------------------ */
+/* About Brief Section
+/* ------------------------------------------------------------------ */
+
+#aboutBrief {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#aboutBrief a, #aboutBrief a:visited  { color: #fff; }
+#aboutBrief a:hover, #aboutBrief a:focus { color: #11ABB0; }
+
+#aboutBrief h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
+#aboutBrief p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
+#aboutBrief .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+
+#aboutBrief .contact-details { width: 41.66667%; }
+#aboutBrief .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+
+#aboutBrief .main-col { padding-right: 5%; }
+#aboutBrief .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+
+#aboutBrief .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+
+#aboutBrief .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}

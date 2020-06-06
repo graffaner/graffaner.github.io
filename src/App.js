@@ -8,7 +8,7 @@ import About from './Components/About/About';
 import AboutBrief from './Components/About/AboutBrief';
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact';
-import Food from './Components/Food';
+import Food from './Components/Food/Food';
 import Projects from './Components/Projects/Projects';
 
 class App extends Component {
