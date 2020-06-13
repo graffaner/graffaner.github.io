@@ -60,6 +60,7 @@
    position: absolute;
    bottom: 2%;
    width:100%;
+   overflow: none;
     /* Keeps it on the same row */
    display: flex;
    flex-direction: row;

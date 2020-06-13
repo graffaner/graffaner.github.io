@@ -13,7 +13,8 @@ const foodData = [
         goto_menu:["8 Taquitos (Extra Pineapples)"],
         description:(
             <div>
-                <input type="checkbox" className="read-more-state" id="post"/>
+                Description Coming Soon
+                {/* <input type="checkbox" className="read-more-state" id="post"/>
                 <p className="read-more-wrap">
                     a;sldfja;sldfjl;aksdjfl;kasdjfl;kasdjfl;kasdjf;lkasdjfl;kasdjf;lkasdjfkl;asdjf;lkasdjfl;kasjdfkl;ajsd;lkfajsd;klfjs;fljdfasdlfjhasdl;fja;sdlkfj;lakjfl;kasjf;klasdjf;lkajsdf;lkjasdl;kfjalksfj;lkasjdfklajsdlkfjasdlkfjklasdfjlasdfjkl
                     Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food 
@@ -21,7 +22,7 @@ const foodData = [
                         Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food truck Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food  Discada is a food 
                     </span>
                 </p>
-                <label for="post" className="read-more-trigger"></label>
+                <label for="post" className="read-more-trigger"></label> */}
             </div> 
         )
     },
@@ -36,7 +37,7 @@ const foodData = [
         goto_menu:["Tikka Masala (Chicken)","Garlic Naan"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -51,7 +52,7 @@ const foodData = [
         goto_menu:["O.G. Sandwhich","Side of Mac & Cheese","Extra Pickles (2x)"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -66,7 +67,7 @@ const foodData = [
         goto_menu:["Wings (Spicy)","Pickled Radish"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -81,7 +82,7 @@ const foodData = [
         goto_menu:["The Big Cheez","Miss Shortcake","Nutty Valentine"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -96,7 +97,7 @@ const foodData = [
         goto_menu:["Migas Taco","Fried Fish Taco","Street Taco"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -111,7 +112,7 @@ const foodData = [
         goto_menu:["Burrito with Fresh Cilantro Tomatillo Tortilla"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -126,7 +127,7 @@ const foodData = [
         goto_menu:["36 Hour Pork Ribs","Fried Chicken"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -141,7 +142,7 @@ const foodData = [
         goto_menu:["Kobe Bacon Burger"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -156,7 +157,7 @@ const foodData = [
         goto_menu:["Snooze Breakfast Burrito *Both Sauces*"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -171,7 +172,7 @@ const foodData = [
         goto_menu:["Pad See Ew (Chicken)"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -186,7 +187,7 @@ const foodData = [
         goto_menu:["Mi-So-Not (Add Pork Chashu)"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -201,7 +202,7 @@ const foodData = [
         goto_menu:["Carne Asada (add Pineapples)","Queso and Chips"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -216,7 +217,7 @@ const foodData = [
         goto_menu:["To be decided"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -231,7 +232,7 @@ const foodData = [
         goto_menu:["To be decided"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -246,7 +247,7 @@ const foodData = [
         goto_menu:["The Quarter-Winter Moon"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -261,7 +262,7 @@ const foodData = [
         goto_menu:["Pork Chashu Bowl","Jinya Bun"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -276,7 +277,7 @@ const foodData = [
         goto_menu:["Mexican Vanilla with Fresh Strawberries"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -291,7 +292,7 @@ const foodData = [
         goto_menu:["Boneless wings basket (Baker's Gold & Gold Rush) with Cajun Tossed Chips"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -306,7 +307,7 @@ const foodData = [
         goto_menu:["Original Acai Bowl"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -321,7 +322,7 @@ const foodData = [
         goto_menu:["Llano Poblano","Green Chile Queso Fries","Parmesean Truffle Fries"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     },
@@ -336,7 +337,7 @@ const foodData = [
         goto_menu:["Cold Brew","Frose"],
         description:(
             <div>
-                
+                Description Coming Soon
             </div>
         )
     }
