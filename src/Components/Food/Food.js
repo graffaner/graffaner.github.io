@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import foodData from './foodData';
-import ReadMoreReact from 'read-more-react';
 
 class Food extends Component {
   render() {

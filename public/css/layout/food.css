@@ -89,22 +89,37 @@
    width: 100%;
  }
 
+/* Title of the Food Card */
 #food .card .restaurant-title{
    font-family: 'Lobster Two', cursive !important;
-   font-size: 70px !important;
+   font-size: 80px !important;
    text-align: center !important;
    margin-bottom: 30px !important;
    color: black !important;
 }
-
+/* Title font get smaller on smaller screens */
+@media screen and (max-width:1000px) {
+   #food .card .restaurant-title{
+      font-size:40px !important;
+      margin-bottom: 12px !important;
+   }
+}
+/* Keep title of Food Card black even when there's a hyperlink */
 #food .card .restaurant-title a {
    color: black !important;
 }
 
+/* Card Tags */
 #food .card .card-tags {
    font-size: 25px !important;
    font-family: 'Merriweather', serif !important;
    text-align: justify !important;
+}
+/* Card tag font get smaller on smaller screens */
+@media screen and (max-width:1000px) {
+   #food .card .card-tags{
+      font-size:14px !important;
+   }
 }
 
 #food .card .card-back p {
@@ -119,22 +134,42 @@
   display:inline-block;
 }
 
+/* "My Personal Favorite" title */
 #food .card .goto_menu {
    font-size: 30px !important;
    font-family: 'DM Mono', monospace !important;
    margin-bottom: 15px !important;
    text-align: left !important;
 }
+/* "My Personal Favorite" title on a smaller screen */
+@media screen and (max-width:1000px) {
+   #food .card .goto_menu{
+      font-size:20px !important;
+   }
+}
 
+/* Go-to Menu items */
 #food .card .menu-items {
    text-align: left !important;
    font-family: 'DM Mono', monospace !important;
    font-size: 28px !important;
    color: black !important;
 }
+/* Go-to menu items on a smaller screen */
+@media screen and (max-width:1000px) {
+   #food .card .menu-items{
+      font-size:15px !important;
+   }
+}
 
 #food .card .menu-items li {
    line-height: 30px;
+}
+/* Go-to menu items list spacing */
+@media screen and (max-width:1000px) {
+   #food .card .menu-items li{
+      line-height: 20px !important;
+   }
 }
 
 /* Flipping CARD */
