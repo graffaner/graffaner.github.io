@@ -27,7 +27,7 @@ class Food extends Component {
                     {/* Create Tags for the card */}
                     <h2 className="card-tags">
                       {item.type} &#8226; {item.location} &#8226; {item.price} &#8226; {item.rating}
-                      <span></span>{/* This streches the above line */}
+                      <span></span> {/* creates a new line so the above line can stretch across the card */}
                     </h2>
                     <h2 className="goto_menu"> My Personal Favorite: </h2>
                     <p className="menu-items">
@@ -82,6 +82,21 @@ class Food extends Component {
         <div className="city_banner">
           <img src="/images/austin_logo.png" />
         </div>
+
+        {/* TEST SECTION */}
+        {/* <label>
+          <div className="food-card">
+            <div className="card-front">
+              <img src={"/images/food_austin_discada.png"} />
+              <div className="front-container">
+                <h2 className="restaurant-title">
+                  <a href={"#"}>Discada</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </label> */}
+        {/* TEST SECTION */}
        
         {foodCard}
       </div> {/* row */}
