@@ -228,8 +228,8 @@ const foodData = [
         website:"",
         type:"Barbeque",
         price:"$",
-        rating:"7.5/10",
-        goto_menu:["Brisket with Spicy BBQ Sauce","Cream Corn","Mac and Cheese","Potato Salad"],
+        rating:"?/10",
+        goto_menu:["To be decided"],
         description:(
             <div>
                 Description Coming Soon

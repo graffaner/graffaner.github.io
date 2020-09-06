@@ -101,10 +101,18 @@
 /* Title font get smaller on smaller screens */
 @media screen and (max-width:1000px) {
    #food .card .restaurant-title{
+      font-size:50px !important;
+      margin-bottom: 25px !important;
+   }
+}
+/* Title font get smaller on smaller screens */
+@media screen and (max-width:700px) {
+   #food .card .restaurant-title{
       font-size:35px !important;
       margin-bottom: 12px !important;
    }
 }
+
 /* Keep title of Food Card black even when there's a hyperlink */
 #food .card .restaurant-title a {
    color: black !important;
@@ -119,8 +127,17 @@
 /* Card tag font get smaller on smaller screens */
 @media screen and (max-width:1000px) {
    #food .card .card-tags{
-      font-size:14px !important;
-      line-height: 13px !important;
+      font-size:20px !important;
+      line-height: 0px !important;
+      margin-bottom: 20px !important;
+   }
+}
+/* Card tag font get smaller on smaller screens */
+@media screen and (max-width:700px) {
+   #food .card .card-tags{
+      font-size:13px !important;
+      line-height: 0px !important;
+      margin-bottom: 10px !important;
    }
 }
 
@@ -133,6 +150,7 @@
 #food .card .card-tags span {
   width:100%;
   display:inline-block;
+  line-height: 0px !important;
 }
 
 /* "My Personal Favorite" title */
@@ -145,8 +163,15 @@
 /* "My Personal Favorite" title on a smaller screen */
 @media screen and (max-width:1000px) {
    #food .card .goto_menu{
-      font-size:20px !important;
-      margin-bottom: 5px !important;
+      font-size:23px !important;
+      margin-bottom: 8px !important;
+   }
+}
+/* "My Personal Favorite" title on a smaller screen */
+@media screen and (max-width:700px) {
+   #food .card .goto_menu{
+      font-size:15px !important;
+      margin-bottom: 0px !important;
    }
 }
 
@@ -160,17 +185,33 @@
 /* Go-to menu items on a smaller screen */
 @media screen and (max-width:1000px) {
    #food .card .menu-items{
-      font-size:15px !important;
+      font-size:20px !important;
+   }
+}
+/* Go-to menu items on a smaller screen */
+@media screen and (max-width:700px) {
+   #food .card .menu-items{
+      font-size:14px !important;
    }
 }
 
+/* Go-to menu items list spacing */
 #food .card .menu-items li {
    line-height: 30px;
+   margin: 0px !important;
 }
-/* Go-to menu items list spacing */
+/* Go-to menu items list spacing on a smaller screen */
 @media screen and (max-width:1000px) {
    #food .card .menu-items li{
+      line-height: 25px !important;
+      margin: 0px !important;
+   }
+}
+/* Go-to menu items list spacing on a smaller screen */
+@media screen and (max-width:700px) {
+   #food .card .menu-items li{
       line-height: 15px !important;
+      margin: 0px !important;
    }
 }
 
