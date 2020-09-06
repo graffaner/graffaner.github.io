@@ -112,6 +112,13 @@
       margin-bottom: 12px !important;
    }
 }
+/* Title font get smaller on smaller screens */
+@media screen and (max-width:500px) {
+   #food .card .restaurant-title{
+      font-size:25px !important;
+      margin-bottom: 8px !important;
+   }
+}
 
 /* Keep title of Food Card black even when there's a hyperlink */
 #food .card .restaurant-title a {
@@ -138,6 +145,14 @@
       font-size:13px !important;
       line-height: 0px !important;
       margin-bottom: 10px !important;
+   }
+}
+/* Card tag font get smaller on smaller screens */
+@media screen and (max-width:500px) {
+   #food .card .card-tags{
+      font-size:10px !important;
+      line-height: 0px !important;
+      margin-bottom: 6px !important;
    }
 }
 
@@ -174,6 +189,13 @@
       margin-bottom: 0px !important;
    }
 }
+/* "My Personal Favorite" title on a smaller screen */
+@media screen and (max-width:500px) {
+   #food .card .goto_menu{
+      font-size:10px !important;
+      margin-bottom: 0px !important;
+   }
+}
 
 /* Go-to Menu items */
 #food .card .menu-items {
@@ -194,6 +216,12 @@
       font-size:14px !important;
    }
 }
+/* Go-to menu items on a smaller screen */
+@media screen and (max-width:500px) {
+   #food .card .menu-items{
+      font-size:10px !important;
+   }
+}
 
 /* Go-to menu items list spacing */
 #food .card .menu-items li {
@@ -211,6 +239,13 @@
 @media screen and (max-width:700px) {
    #food .card .menu-items li{
       line-height: 15px !important;
+      margin: 0px !important;
+   }
+}
+/* Go-to menu items list spacing on a smaller screen */
+@media screen and (max-width:500px) {
+   #food .card .menu-items li{
+      line-height: 10px !important;
       margin: 0px !important;
    }
 }
