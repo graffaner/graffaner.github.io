@@ -2,13 +2,23 @@ const resume = {
     "skillmessage":"",
     "education":[
       {
+        "school":"Georgia Institute of Technology",
+        "degree":"M.S. Computer Science",
+        "graduated":"Spring 2021 - 2024",
+        "description":[
+          "Specialization in Machine Learning"
+        ],
+        "othertitle":[],
+        "otherdesc":[]
+      },
+      {
         "school":"University of Texas at Austin",
         "degree":"B.S. Mechanical Engineering Honors",
         "graduated":"May 2018, GPA: 3.92/4.00",
         "description":[
           "Engineering Honors Program: Honors Thesis - Safety Risks with DIY Electric Rideables",
           "Accolades: Mechatronics Certificate, Engineer-in-Training (EIT 64856)",
-          "Clubs & Activities: Tau Beta Pi, ASME",
+          "Clubs & Activities: Tau Beta Pi, UT Fire Research, ASME",
         ],
         "othertitle":[
           "Graduate School Admission (2018)"
@@ -24,11 +34,21 @@ const resume = {
     "work":[
       {
         "company":"Stealth Mode Start Up",
-        "title":"Engineer #1 | VP of Engineering",
+        "title":"Vice President of Engineering",
         "years":"Sept 2019 - Present",
         "description":[
           "Developing innovative safety solutions for renewable energy storage systems",
           "Seeded by the NSF STTR grant"
+        ]
+      },
+      {
+        "company":"UT Fire Research",
+        "title":"Research Engineer",
+        "years":"Sept 2019 - June 2020",
+        "description":[
+          "Developed a surrogate battery energy storage system that releases safe non-flammable gases similar to that of a rack-level failure",
+          "Created an array of custom wireless sensors tuned to detect the dissemination of the safe non-flammable gas",
+          "Participated in field studies with the Honolulu Fire Department and the Phoenix Fire Department to align research with industry"
         ]
       },
       {
