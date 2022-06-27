@@ -12,11 +12,16 @@ const aboutData = {
         "Behind the scenes, there's so many levels of engineering that goes into Legos. From robotics to model designers to mass manufacturing techniques. The whole life cycle of Legos inspired me to be an engineer. Aside from toys, I've always looked to devise solutions for daily grinds. I made a basketball chute for dirty clothes to help promote laundry collection. I made a pulley system around my room so I could turn off the lights remotely from my bed. I made an electric skateboard so I didn't have to walk in the heat. These solutions weren't derived from aspiring to be an engineer, I just looked for realistic solutions for relevant problems. ",
         "Just like legos, I want to stack foundational building blocks together to mature into a well-rounded engineer. I chose mechanical engineering because of the fundamental diversity and application to problem-solving holistically. I'm always looking to expand my skillset, even outside of mechanical engineering. But most importantly, I'm looking to have fun with my career. Remember... growing up doesn't mean you stop playing with Legos, it just means buying your own."
     ],
+    why_cs:[
+        "I've always loved making tools. Growing up as a kid, computers were new and under-developed. These were the days when Netflix used to mail DVD's. The only tools accessible to me were all mechanical: kitchen gadgets, vehicles, legos, furniture, etc. However, as I matured, so did software. I got to see the digital age develop firsthand. And soon, the need for more software tools became apparent. This original passion to develop tools to increase quality of life still carries on. Whether it be making apps or constructing scalable infrastrucutre to support data scientists and software engineers: this is my carrer goal."
+    ],
     interests:[
         "Snowboarding",
+        "Blogging",
         "Tennis",
         "Bowling",
-        "Short-Term Investing"
+        "Short-Term Investing",
+        "Computer Games"
     ]
 };
 

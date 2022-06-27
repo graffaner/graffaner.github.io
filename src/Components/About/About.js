@@ -24,6 +24,16 @@ class Portfolio extends Component {
       )
     })
 
+    var why_cs = aboutData.why_cs.map(function(item){
+      return(
+        <div>
+          <p>
+            {item}
+          </p>
+        </div> 
+      )
+    })
+
     var interests = aboutData.interests.map(function(int){
       return (
         <li>
@@ -82,6 +92,16 @@ class Portfolio extends Component {
         </div>
 
         <br/>
+
+        <div className="row">
+          <div className="column">
+            <h1>Why Computer Science / Data Engineering?</h1>
+
+            <p>
+              {why_cs}
+            </p>
+          </div>
+        </div>
 
         {/* <h1>Interests?</h1>
 

@@ -4,12 +4,23 @@ const resume = {
       {
         "school":"Georgia Institute of Technology",
         "degree":"M.S. Computer Science",
-        "graduated":"Spring 2021 - 2024",
+        "graduated":"Spring 2021 - 2024, GPA: 4.00/4.00",
         "description":[
           "Specialization in Machine Learning"
         ],
-        "othertitle":[],
-        "otherdesc":[]
+        "othertitle":["Courses"],
+        "otherdesc":{
+          "Courses":[
+            "(A) CS6200 - Graduate Introduction to Operating Systems",
+            "(A) CS7647 - Machine Learning for Trading",
+            "(A) CS6300 - Software Development Process",
+            "(A) CSE6242 - Data & Visual Analytics",
+            "(Current) CS6400 - Database Systems",
+            "(Future) CS6601 - Artificial Intelligence",
+            "(Future) CS7641 - Machine Learning",
+            "(Future) CS6515 - Introduction to Graduate Algorithms"
+          ]
+        }
       },
       {
         "school":"University of Texas at Austin",
@@ -33,12 +44,15 @@ const resume = {
     ],
     "work":[
       {
-        "company":"Stealth Mode Start Up",
+        "company":"Altect, Inc.",
         "title":"Vice President of Engineering",
         "years":"Sept 2019 - Present",
         "description":[
-          "Developing innovative safety solutions for renewable energy storage systems",
-          "Seeded by the NSF STTR grant"
+          "Altect’s business is to develop and provide novel fire protection technologies for emerging, clean energy technologies including electric vehicle and energy storage.",
+          "Co-wrote a patent (pending) and SBIR grant proposals that brought in $1.2M.",
+          "Developing main software & control and data pipeline for prototype beta via JavaScript, HTML/CSS, Python Flask API, PLC, SQL, and FireBase.",
+          "Developing a prototype & proof-of-concept fire-safety solution for battery failure hazards.",
+          "Demonstrated lab and bench-scale proof-of-concepts during Phase I grants."
         ]
       },
       {
@@ -46,9 +60,10 @@ const resume = {
         "title":"Research Engineer",
         "years":"Sept 2019 - June 2020",
         "description":[
-          "Developed a surrogate battery energy storage system that releases safe non-flammable gases similar to that of a rack-level failure",
-          "Created an array of custom wireless sensors tuned to detect the dissemination of the safe non-flammable gas",
-          "Participated in field studies with the Honolulu Fire Department and the Phoenix Fire Department to align research with industry"
+          "Developed a surrogate battery energy storage system that releases safe non-flammable gases similar to that of a rack-level failure.",
+          "Created an array of custom wireless sensors tuned to detect the dissemination of the safe non-flammable gas.",
+          "Sensors upload data via REST API into a local MySQL server on a laptop.",
+          "Participated in field studies with the Honolulu Fire Department and the Phoenix Fire Department to align research with industry."
         ]
       },
       {
@@ -59,7 +74,7 @@ const resume = {
           "Was in transit for a formal position as an Associate Data Scientist",
           "Developed micro-web applications in Python Flask to promote efficient communication of critical information",
           "Analyzed quality metrics in compliance with Tesla's Quality Management System (QMS)",
-          "Utilized Confluence REST API's to autonomously maintain information",
+          "Autonomously maintained critical information via Confluence REST API’s.",
           "Offered a formal position as an Associate Process Engineer for the Model 3 Drive Unit"
         ]
       },
@@ -107,40 +122,24 @@ const resume = {
     ],
     "skills":[
       {
-        "name":"Mechanical Engineering",
-        "level":"80%"
-      },
-      {
-        "name":"Solidworks",
-        "level":"70%"
+        "name":"MySQL",
+        "level":"90%"
       },
       {
         "name":"Python",
-        "level":"70%"
-      },
-      {
-        "name":"MySQL",
-        "level":"70%"
-      },
-      {
-        "name":"Raspberry Pi",
-        "level":"70%"
+        "level":"80%"
       },
       {
         "name":"Java",
         "level":"65%"
       },
       {
-        "name":"MATLAB",
-        "level":"65%"
+        "name":"JavaScript",
+        "level":"50%"
       },
       {
-        "name":"PTC Creo",
-        "level":"60%"
-      },
-      {
-        "name":"LabVIEW",
-        "level":"60%"
+        "name":"Solidworks",
+        "level":"50%"
       },
       {
         "name":"React JS",
