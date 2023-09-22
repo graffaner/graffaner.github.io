@@ -4,7 +4,7 @@ const resume = {
       {
         "school":"Georgia Institute of Technology",
         "degree":"M.S. Computer Science",
-        "graduated":"Spring 2021 - 2024, GPA: 4.00/4.00",
+        "graduated":"Spring 2021 - 2024, GPA: 3.87/4.00",
         "description":[
           "Specialization in Machine Learning"
         ],
@@ -15,10 +15,12 @@ const resume = {
             "(A) CS7647 - Machine Learning for Trading",
             "(A) CS6300 - Software Development Process",
             "(A) CSE6242 - Data & Visual Analytics",
-            "(Current) CS6400 - Database Systems",
-            "(Future) CS6601 - Artificial Intelligence",
-            "(Future) CS7641 - Machine Learning",
-            "(Future) CS6515 - Introduction to Graduate Algorithms"
+            "(B) CS6400 - Database Systems Concepts & Design",
+            "(A) CS6476 - Computer Vision",
+            "(A) CS6603 - AI, Ethics, and Society",
+            "(A) CS7632 - Game AI",
+            "(Current) CS7641 - Machine Learning",
+            "(Next) CS6515 - Introduction to Graduate Algorithms"
           ]
         }
       },
@@ -44,15 +46,33 @@ const resume = {
     ],
     "work":[
       {
+        "company":"Micah Group",
+        "title":"Data Engineer",
+        "years":"Sept 2022 - Present",
+        "description":[
+          "Developed document extraction microservice in FastAPI to process over 900 financial documents via (Google Document AI, OCR, and custom grouping algorithm).",
+          "Implemented auto-decision feature to automatically approve/deny over \$31.8M loan requests based on historical banking and credit report data.",
+          "Scope included developing CRUD operations with Django REST API, deploying to GCP Cloud Run/Functions using Github Actions, and develop new features with feature flags and CI/CD.",
+        ]
+      },
+      {
+        "company":"IPSDI, Inc.",
+        "title":"Software Engineer - Part Time",
+        "years":"Oct 2022 - Present",
+        "description":[
+          "Created data pipelines to normalize (120+) fire department's dispatch data (100M+ incidents) with TypeScript, AWS (Lambda, S3, ECS, Cloudwatch, etc). and Github Actions.",
+          "Deployed API pollers to AWS with serverless architecture.",
+          "Create automated workflows with Github Actions (Sends a SNS message to trigger a Lambda function to perform a query on a PostgreSQL RDS database through VPC access)."
+        ]
+      },
+      {
         "company":"Altect, Inc.",
         "title":"Vice President of Engineering",
-        "years":"Sept 2019 - Present",
+        "years":"Sept 2019 - Aug 2022",
         "description":[
           "Altect’s business is to develop and provide novel fire protection technologies for emerging, clean energy technologies including electric vehicle and energy storage.",
-          "Co-wrote a patent (pending) and SBIR grant proposals that brought in $1.2M.",
-          "Developing main software & control and data pipeline for prototype beta via JavaScript, HTML/CSS, Python Flask API, PLC, SQL, and FireBase.",
-          "Developing a prototype & proof-of-concept fire-safety solution for battery failure hazards.",
-          "Demonstrated lab and bench-scale proof-of-concepts during Phase I grants."
+          "Co-wrote a patent (20220094014) and SBIR grant proposals that brought in $1.2M.",
+          "Developed main software \& control and data pipeline for MVP prototype via JavaScript, HTML/CSS, Flask API, PLC, SQL, and FireBase. Created working prototype to mitigate fire/explosion hazards due to Lithium-based battery failures.",
         ]
       },
       {
@@ -122,16 +142,28 @@ const resume = {
     ],
     "skills":[
       {
-        "name":"MySQL",
+        "name":"Python",
+        "level":"100%"
+      },
+      {
+        "name":"Github",
+        "level":"100%"
+      },
+      {
+        "name":"SQL",
         "level":"90%"
       },
       {
-        "name":"Python",
-        "level":"80%"
+        "name":"Google Cloud Platform",
+        "level":"70%"
+      },
+      {
+        "name":"Amazon Web Services",
+        "level":"70%"
       },
       {
         "name":"Java",
-        "level":"65%"
+        "level":"50%"
       },
       {
         "name":"JavaScript",
@@ -143,10 +175,42 @@ const resume = {
       },
       {
         "name":"React JS",
-        "level":"30%"
+        "level":"20%"
       }
     ],
     "courses":[
+      {
+        "number":"CS7632",
+        "name":"Game AI"
+      },
+      {
+        "number":"CS6603",
+        "name":"AI, Ethics, and Society"
+      },
+      {
+        "number":"CS6476",
+        "name":"Computer Vision"
+      },
+      {
+        "number":"CS6400",
+        "name":"Database Systems Concepts & Design"
+      },
+      {
+        "number":"CSE6242",
+        "name":"Data & Visual Analytics"
+      },
+      {
+        "number":"CS6300",
+        "name":"Software Development Process"
+      },
+      {
+        "number":"CS7647",
+        "name":"Machine Learning for Trading"
+      },
+      {
+        "number":"CS6200",
+        "name":"Graduate Introduction to Operating Systems"
+      },
       {
         "number":"ME344",
         "name":"Dynamic Systems & Controls"
