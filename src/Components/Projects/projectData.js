@@ -3,6 +3,119 @@ import { Node, Context } from 'react-mathjax';
 
 const projectData = [
     {
+        name: 'Gaming PC',
+        icon: 'fa fa-desktop',
+        text: (
+            <div className="projectBox">
+                
+                <h1>
+                    Custom Gaming PC
+                </h1>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_thumbnail.jpeg" />
+                    <figcaption> 
+                        Custom Gaming PC
+                    </figcaption>
+                </div>
+
+                <br/>
+
+                <p>
+                    Project Motivation:
+                    <br/><br/>
+                    In Jan 2021, COVID and quarantine protocols boomed the gaming industry and my addiction. It was time to build a new gaming PC, but I wanted a PC that was compact, portable, robust, and simply… different. The best and least cost-effective way to do this is by creating my own custom case.
+                    <br/><br/>
+                    I’m a mechanical engineer by degree from the University of Texas at Austin. When designing this case, I really should have ran heat and flow simulations to validate the cooling performance of the case. Without access to proper simulation softwares, I shifted my main focus in mechanical design to achieve compactness, portability, and durability while slapping on as many fans as I could. Hope you enjoy my journey.
+                    <br/><br/>
+                    <a href="https://eellaup.medium.com/how-i-made-a-custom-pc-case-as-a-mechanical-engineer-f79596dd9a1c">You can read this article on my Medium. I appreciate the support!</a>
+                </p>
+
+                <hr/>
+
+                <h1>
+                    PC Specifications
+                </h1>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_specs.png" />
+                    <figcaption> 
+                        Custom Gaming PC Specifications
+                    </figcaption>
+                </div>
+
+                <hr/>
+
+                <h1>
+                    3D CAD Models - Solidworks
+                </h1>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_cad.png" />
+                    <figcaption> 
+                        3D Model of PC
+                    </figcaption>
+                </div>
+
+                <hr/>
+
+                <h1>
+                    Build Montage
+                </h1>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_laser.png" />
+                    <figcaption> 
+                        Laser Cutting Side Panels
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_solder.png" />
+                    <figcaption> 
+                        Soldering Power Button
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_building.png" />
+                    <figcaption> 
+                        Assembling PC Frame
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_building2.png" />
+                    <figcaption> 
+                        Assembling PC Frame Part 2
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_assembly.png" />
+                    <figcaption> 
+                        Fully Assembled PC
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_towel.png" />
+                    <figcaption> 
+                        PC Size Comparison To Paper Towel
+                    </figcaption>
+                </div>
+
+                <div className="projectPic-wide">
+                    <img src="/images/custom_pc_size.png" />
+                    <figcaption> 
+                        PC Size Comparison To Fractal Meshify 2 Case
+                    </figcaption>
+                </div>
+            
+            </div>
+        )
+    },
+    {
         name: 'E-Skateboard',
         icon: 'fa fa-bolt',
         text: (
@@ -59,7 +172,13 @@ const projectData = [
                     </figcaption>
                 </div>
 
-                {/* <div className="projectPic-wide">
+                <hr/>
+
+                <h1>
+                    Build Montage
+                </h1>
+
+                <div className="projectPic-wide">
                     <img src="/images/boardv2_mill.jpg" />
                     <figcaption> 
                         Milling a flat surface
@@ -99,21 +218,21 @@ const projectData = [
                     <figcaption> 
                         Partial Assembly
                     </figcaption>
-                </div> */}
+                </div>
 
-                {/* <div className="projectPic-wide">
+                <div className="projectPic-wide">
                     <img src="/images/boardv2_side.jpg" />
                     <figcaption> 
                         Full Assembly
                     </figcaption>
-                </div> */}
+                </div>
 
-                {/* <div className="projectPic-wide">
+                <div className="projectPic-wide">
                     <img src="/images/boardv2_studio.jpg" />
                     <figcaption> 
                         Studio Assembly
                     </figcaption>
-                </div> */}
+                </div>
 
                 <hr/>
 

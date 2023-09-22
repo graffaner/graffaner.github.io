@@ -15,6 +15,12 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
+            <li key="medium">
+              <a href="https://medium.com/@eellaup">
+                  <i className="fab fa-medium"></i>
+              </a>
+            </li>
+
             <li key="linkedin">
               <a href="https://www.linkedin.com/in/pjl655/">
                 <i className="fab fa-linkedin"></i>
