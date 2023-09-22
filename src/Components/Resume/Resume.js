@@ -9,7 +9,6 @@ class Resume extends Component {
   }
 
   render() {
-    var resumeDownload = "https://drive.google.com/file/d/1cm9UuY0VdFVuBkfjotVyGfE_BTl8i1qP/view?usp=sharing";
     var skillmessage = resume.skillmessage;
     var education = resume.education.map(function(education){
       return (
