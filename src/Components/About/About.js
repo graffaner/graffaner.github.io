@@ -83,10 +83,10 @@ class Portfolio extends Component {
 
         <div className="row">
           <div className="column">
-            <h1>Why Mechanical Engineering?</h1>
+            <h1>Why Software / Data Engineering?</h1>
 
             <p>
-              {why_meche}
+              {why_cs}
             </p>
           </div>
         </div>
@@ -95,10 +95,10 @@ class Portfolio extends Component {
 
         <div className="row">
           <div className="column">
-            <h1>Why Computer Science / Data Engineering?</h1>
+            <h1>Why Mechanical Engineering?</h1>
 
             <p>
-              {why_cs}
+              {why_meche}
             </p>
           </div>
         </div>
