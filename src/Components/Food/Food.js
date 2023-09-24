@@ -4,6 +4,12 @@ import foodData from './foodData';
 class Food extends Component {
   render() {
 
+    // Sort Food Data by rating
+    foodData.sort((a,b) => {
+      if (a.rating > b.rating) return -1;
+      if (a.rating < b.rating) return 1;
+    });
+
     var foodCard = foodData.map(function(item){
       var imgSrc = "/images/"+item.img;
 
@@ -26,7 +32,7 @@ class Food extends Component {
                     </h2>
                     {/* Create Tags for the card */}
                     <h2 className="card-tags">
-                      {item.type} &#8226; {item.location} &#8226; {item.price} &#8226; {item.rating}
+                      {item.type} &#8226; {item.location} &#8226; ${item.price} &#8226; {item.rating}/10
                       <span></span> {/* creates a new line so the above line can stretch across the card */}
                     </h2>
                     <h2 className="goto_menu"> My Personal Favorite: </h2>
