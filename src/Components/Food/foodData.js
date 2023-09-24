@@ -8,8 +8,8 @@ const foodData = [
         location:"Austin,TX",
         website:"http://www.discadatx.com/",
         type:"Tacos",
-        price:"$12",
-        rating:"8/10",
+        price:12,
+        rating:8,
         goto_menu:["8 Taquitos (Extra Pineapples)"],
         description:(
             <div>
@@ -32,8 +32,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://tarkaindiankitchen.com/",
         type:"Indian",
-        price:"$12",
-        rating:"8/10",
+        price:12,
+        rating:6.5,
         goto_menu:["Tikka Masala (Chicken)","Garlic Naan"],
         description:(
             <div>
@@ -47,24 +47,9 @@ const foodData = [
         location:"Austin,TX",
         website:"http://tumble22.com/",
         type:"Fried Chicken",
-        price:"$15",
-        rating:"6.5/10",
+        price:15,
+        rating:6.5,
         goto_menu:["O.G. Sandwhich","Side of Mac & Cheese","Extra Pickles (2x)"],
-        description:(
-            <div>
-                Description Coming Soon
-            </div>
-        )
-    },
-    {
-        name:"Bonchon",
-        img:"food_austin_bonchon.jpg",
-        location:"Round Rock,TX",
-        website:"https://bonchon.com/",
-        type:"Fried Chicken",
-        price:"$15",
-        rating:"9/10",
-        goto_menu:["Wings (Spicy)","Pickled Radish"],
         description:(
             <div>
                 Description Coming Soon
@@ -77,9 +62,9 @@ const foodData = [
         location:"Austin,TX",
         website:"https://gourdoughs.com/",
         type:"Donuts",
-        price:"$6",
-        rating:"7/10",
-        goto_menu:["The Big Cheez","Miss Shortcake","Nutty Valentine"],
+        price:7,
+        rating:7,
+        goto_menu:["Miss Shortcake","Nutty Valentine"],
         description:(
             <div>
                 Description Coming Soon
@@ -92,9 +77,9 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.austintacojoint.com/",
         type:"Tacos",
-        price:"$8",
-        rating:"7.5/10",
-        goto_menu:["Migas Taco","Fried Fish Taco","Street Taco"],
+        price:8,
+        rating:7.5,
+        goto_menu:["Migas Taco with Chipotle Sauce","Fried Fish Taco","Street Taco"],
         description:(
             <div>
                 Description Coming Soon
@@ -107,8 +92,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://cabobobs.com/",
         type:"Mexican",
-        price:"$8",
-        rating:"7/10",
+        price:8,
+        rating:6,
         goto_menu:["Burrito with Fresh Cilantro Tomatillo Tortilla"],
         description:(
             <div>
@@ -122,9 +107,9 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.culinarydropout.com/locations/austin-tx/",
         type:"American",
-        price:"$25",
-        rating:"7/10",
-        goto_menu:["36 Hour Pork Ribs","Fried Chicken"],
+        price:25,
+        rating:7,
+        goto_menu:["36 Hour Pork Ribs","Katsu Sandwhich"],
         description:(
             <div>
                 Description Coming Soon
@@ -137,8 +122,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.velvettaco.com/location/austin/",
         type:"Tacos",
-        price:"$10",
-        rating:"6/10",
+        price:10,
+        rating:6,
         goto_menu:["Kobe Bacon Burger"],
         description:(
             <div>
@@ -152,8 +137,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.snoozeeatery.com/",
         type:"Brunch",
-        price:"$10",
-        rating:"7.5/10",
+        price:10,
+        rating:7.5,
         goto_menu:["Snooze Breakfast Burrito *Both Sauces*"],
         description:(
             <div>
@@ -163,13 +148,28 @@ const foodData = [
     },
     {
         name:"Madam Mam's",
-        img:"food_austin_madam.jpg",
+        img:"food_austin_madam.jpeg",
         location:"Austin,TX",
         website:"https://www.madammam.com/",
         type:"Thai",
-        price:"$10",
-        rating:"7/10",
-        goto_menu:["Pad See Ew (Chicken)"],
+        price:13,
+        rating:7,
+        goto_menu:["Bankrupt Noodles","Sweet Siam Wings","Pad See Ew"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Sazan Ramen",
+        img:"food_austin_sazan.jpeg",
+        location:"Austin,TX",
+        website:"https://sazanramen.com/",
+        type:"Ramen",
+        price:14,
+        rating:9,
+        goto_menu:["Takoyaki","Paitan Ramen"],
         description:(
             <div>
                 Description Coming Soon
@@ -182,8 +182,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://ramen-tatsuya.com/",
         type:"Ramen",
-        price:"$15",
-        rating:"6/10",
+        price:13,
+        rating:6,
         goto_menu:["Mi-So-Not (Add Pork Chashu)"],
         description:(
             <div>
@@ -197,8 +197,8 @@ const foodData = [
         location:"Austin,TX",
         website:"http://www.tysonstacos.com/menu",
         type:"Tacos",
-        price:"$12",
-        rating:"7/10",
+        price:12,
+        rating:7,
         goto_menu:["Carne Asada (add Pineapples)","Queso and Chips"],
         description:(
             <div>
@@ -212,8 +212,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://homeslicepizza.com/",
         type:"Pizza",
-        price:"$10",
-        rating:"6/10",
+        price:10,
+        rating:7,
         goto_menu:["To be decided"],
         description:(
             <div>
@@ -227,8 +227,8 @@ const foodData = [
         location:"Austin,TX",
         website:"",
         type:"Barbeque",
-        price:"$",
-        rating:"?/10",
+        price:25,
+        rating:7,
         goto_menu:["To be decided"],
         description:(
             <div>
@@ -242,8 +242,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://summermooncoffee.com/",
         type:"Coffee",
-        price:"$5",
-        rating:"9/10",
+        price:6,
+        rating:9,
         goto_menu:["The Quarter-Winter Moon"],
         description:(
             <div>
@@ -257,9 +257,9 @@ const foodData = [
         location:"Austin,TX",
         website:"https://jinya-ramenbar.com/",
         type:"Ramen",
-        price:"$15",
-        rating:"7/10",
-        goto_menu:["Pork Chashu Bowl","Jinya Bun"],
+        price:15,
+        rating:5,
+        goto_menu:["Pork Chashu Bowl","Jinya Bun","Takoyaki"],
         description:(
             <div>
                 Description Coming Soon
@@ -272,8 +272,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://amysicecreams.com/",
         type:"Ice Cream",
-        price:"$5",
-        rating:"7/10",
+        price:6,
+        rating:8,
         goto_menu:["Mexican Vanilla with Fresh Strawberries"],
         description:(
             <div>
@@ -287,24 +287,9 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.pluckers.com/",
         type:"Fried Chicken",
-        price:"$15",
-        rating:"7.5/10",
+        price:15,
+        rating:7.5,
         goto_menu:["Boneless wings basket (Baker's Gold & Gold Rush) with Cajun Tossed Chips"],
-        description:(
-            <div>
-                Description Coming Soon
-            </div>
-        )
-    },
-    {
-        name:"Shake Smart",
-        img:"food_austin_shakesmart.jpg",
-        location:"Austin,TX",
-        website:"https://shakesmart.com/",
-        type:"Acai Bowl",
-        price:"$7",
-        rating:"9/10",
-        goto_menu:["Original Acai Bowl"],
         description:(
             <div>
                 Description Coming Soon
@@ -317,8 +302,8 @@ const foodData = [
         location:"Austin,TX",
         website:"https://www.hopdoddy.com/",
         type:"Burgers",
-        price:"$15",
-        rating:"8/10",
+        price:15,
+        rating:8,
         goto_menu:["Llano Poblano","Green Chile Queso Fries","Parmesean Truffle Fries"],
         description:(
             <div>
@@ -332,9 +317,129 @@ const foodData = [
         location:"Austin,TX",
         website:"https://jenis.com/",
         type:"Ice Cream",
-        price:"$6",
-        rating:"8/10",
+        price:6,
+        rating:6.5,
         goto_menu:["Cold Brew","Frose"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Uncle Tetsu",
+        img:"food_austin_uncletetsu.jpeg",
+        location:"Austin,TX",
+        website:"https://uncletetsu-us.com/",
+        type:"Cheesecake",
+        price:13,
+        rating:9,
+        goto_menu:["Strawberry Cheesecake"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Gangnam KBBQ",
+        img:"food_austin_gangnam.jpeg",
+        location:"Austin,TX",
+        website:"https://gangnamkbbq.com/",
+        type:"Korean BBQ",
+        price:50,
+        rating:10,
+        goto_menu:["Chadolbagi","Samgyeopsal","LA Kalbi","Soybean Stew"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Soupleaf Hotpot",
+        img:"food_austin_soupleaf.png",
+        location:"Austin,TX",
+        website:"https://www.soupleafhotpot.com/",
+        type:"Hotpot",
+        price:40,
+        rating:9.5,
+        goto_menu:["Tonkatsu Broth","Prime Angus Shoulder","Angus Brisket"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Pita Shack",
+        img:"food_austin_pitashack.jpeg",
+        location:"Pflugerville,TX",
+        website:"https://www.pita-shack.com/",
+        type:"Halal",
+        price:12,
+        rating:8,
+        goto_menu:["Beef Shawarma Wrap"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Buddy's Burger",
+        img:"food_austin_buddy.jpg",
+        location:"Austin,TX",
+        website:"https://buddysburger.com/",
+        type:"Burgers",
+        price:12,
+        rating:8.5,
+        goto_menu:["Double Spicy with Cheese","Seasoned Fries"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Jewboy Burgers",
+        img:"food_austin_jewboy.jpg",
+        location:"Austin,TX",
+        website:"https://jewboyburgers.com/",
+        type:"Burger",
+        price:15,
+        rating:8,
+        goto_menu:["The Jewboy Burger", "Homeboy Chile Con Queso with Chips"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Tan My",
+        img:"food_austin_tanmy.jpeg",
+        location:"Austin,TX",
+        website:"",
+        type:"Pho",
+        price:16,
+        rating:9,
+        goto_menu:["Pho Tai","Bun Cha Gio (Vermicelli with Egg Rolls)"],
+        description:(
+            <div>
+                Description Coming Soon
+            </div>
+        )
+    },
+    {
+        name:"Pho Phong Luu",
+        img:"food_austin_phongluu.jpeg",
+        location:"Austin,TX",
+        website:"https://phophongluu.com/",
+        type:"Pho",
+        price:15,
+        rating:9,
+        goto_menu:["Garlic Fish Wings","Pho Tai"],
         description:(
             <div>
                 Description Coming Soon
