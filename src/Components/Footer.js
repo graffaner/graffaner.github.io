@@ -22,7 +22,7 @@ class Footer extends Component {
             </li>
 
             <li key="linkedin">
-              <a href="https://www.linkedin.com/in/pjl655/">
+              <a href="https://www.linkedin.com/in/eellaup/">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
