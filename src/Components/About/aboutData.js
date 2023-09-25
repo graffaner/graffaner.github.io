@@ -25,4 +25,4 @@ const aboutData = {
     ]
 };
 
-export default aboutData;z
+export default aboutData;
