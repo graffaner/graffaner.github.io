@@ -444,13 +444,6 @@ const projectData = [
                     Project Motivation:
                     <br/><br/>
                     In our senior design course, we were tasked with developing a robot capable of performing urban search and rescue (USAR) operations within a burning building. The setting for the USAR operation was to aid firefighters by locating an incapacited person/pet in a smokey high-temperature environment. 
-                    <br/><br/>
-                    Design Constraints:
-                    <br/><br/>
-                    Concept Generation:
-                    <br/><br/>
-                    Pugh Chart:
-                    <br/><br/>
                     
                 </p>
             </div>

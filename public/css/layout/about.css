@@ -36,9 +36,10 @@
  }
  
  #about p {
-    font-size: 15px !important;
+    font-size: 16px !important;
     text-align: justify;
     margin-bottom: 7px;
+    color: #7e7c7c;
  }
  
  #about img {
