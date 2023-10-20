@@ -2,7 +2,7 @@
   "name": "Website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eellaup.com",
+  "homepage": "https://thephysicistjourney.com",
   "dependencies": {
     "@babel/runtime": "^7.23.2",
     "jquery": "^3.5.1",

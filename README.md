@@ -1,3 +1,6 @@
 # Website
 
-npm run deploy
+```js
+npm install -g serve
+serve -s build
+```
