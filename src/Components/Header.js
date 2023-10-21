@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Medium, Linkedin, Github } from './Social';
 
 class Header extends Component {
 
@@ -32,24 +33,9 @@ class Header extends Component {
           </h3>
           {/* <hr /> */}
           <ul className="social">
-
-            {/* <li key="medium">
-              <a href="https://medium.com/@eellaup">
-                <i className="fab fa-medium"></i>
-              </a>
-            </li> */}
-
-            <li key="linkedin">
-              <a href="https://www.linkedin.com/in/lei-chen-820a953b/">
-                <i className="fab fa-linkedin"></i>
-              </a>
-            </li>
-
-            <li key="github">
-              <a href="https://github.com/graffaner/">
-                <i className="fab fa-github"></i>
-              </a>
-            </li>
+            {/* <Medium/> */}
+            <Linkedin/>
+            <Github/>
           </ul>
         </div>
       </div>

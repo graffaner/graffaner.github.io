@@ -11,7 +11,7 @@ class About extends Component {
     var profilepic = "images/profilepic.jpg";
     var bio = (
       <p>
-        I engineer technological solutions to solve quantitative puzzles and I’m passionate about applying my skills in improving software experience.  My Physics training well prepared me for abstracting real world subjects to mathematical models, architecting digital solutions and crafting software. I'd like to help people one <b>bit</b> at a time.
+        I engineer technological solutions to solve quantitative puzzles and I’m passionate about applying my skills to improving software experience.  My Physics training well prepared me for abstracting real world subjects to mathematical models, architecting digital solutions and crafting software. I'd love to build software to help people one <b>bit</b> at a time.
       </p>
     );
     var street = "";
