@@ -38,7 +38,9 @@ class Portfolio extends Component {
     const interests = aboutData.interests.map(function(int) {
       return (
         <li>
-          {int}
+          <p>
+            &#8226; {int}
+          </p>
         </li>
       );
     });
@@ -69,33 +71,19 @@ class Portfolio extends Component {
           {/* <img src="/images/laying_on_tree.jpg" /> */}
         </div>
 
-        {/* <br/> */}
+        <br/>
 
-        {/*<div className="row">
+        <div className="row">
           <div className="column">
-            <h1>Why Software / Data Engineering?</h1>
-            <p>
-              {why_cs}
-            </p>
+            <div className="course-container">
+              <h1>Interests</h1>
+              <ul className="course-list">
+                {interests}
+              </ul>
+            </div>
           </div>
-        </div> */}
 
-        {/* <br/> */}
-
-        {/* <div className="row">
-          <div className="column">
-            <h1>Why Mechanical Engineering?</h1>
-            <p>
-              {why_meche}
-            </p>
-          </div>
-        </div> */}
-
-        {/* <h1>Interests?</h1>
-
-        <div className="interest-card">
-          
-        </div> */}
+        </div>
 
         {/* <div className="row">
           <div className="column">
