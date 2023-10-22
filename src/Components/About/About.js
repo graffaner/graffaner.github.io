@@ -59,7 +59,6 @@ class Portfolio extends Component {
         <div id="home"></div>
 
         <div className="row">
-
           <div className="column">
             <p>
               <img className="portrait" src="/images/aboutme.jpg" />
@@ -67,34 +66,30 @@ class Portfolio extends Component {
               {aboutme}
             </p>
           </div>
-
-
           {/* <img src="/images/laying_on_tree.jpg" /> */}
         </div>
 
-        <br/>
+        {/* <br/> */}
 
-        <div className="row">
+        {/*<div className="row">
           <div className="column">
             <h1>Why Software / Data Engineering?</h1>
-
             <p>
               {why_cs}
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <br/>
+        {/* <br/> */}
 
-        <div className="row">
+        {/* <div className="row">
           <div className="column">
             <h1>Why Mechanical Engineering?</h1>
-
             <p>
               {why_meche}
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* <h1>Interests?</h1>
 
