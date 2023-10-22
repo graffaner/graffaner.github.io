@@ -8,22 +8,14 @@ class Header extends Component {
     return (
       <header id="home">
 
-      <nav id="nav-wrap" className="headerNav">
-
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-        <ul id="nav" className="nav">
-          <li className="current"><a className="smoothscroll" href="#home" onClick={this.props.frontpageHandler}>Home</a></li>
-          <li><a className="smoothscroll" href='#about' onClick={this.props.aboutHandler}>About</a></li>
-	        <li><a className="smoothscroll" href='#resume' onClick={this.props.resumeHandler}>Resume</a></li>
-          <li><a className="smoothscroll" href="#projects" onClick={this.props.projectHandler}>Projects</a></li>
-          {/* <li><a className="smoothscroll" href="#food" onClick={this.props.foodHandler}>Food</a></li> */}
-            
-          {/* <li><a className="smoothscroll" href="#contact" onClick={this.props.contactHandler}>Contact</a></li> */}
-        </ul>
-
-      </nav>
+      <div>
+        <HeaderNav
+          frontpageHandler={ this.props.frontpageHandler }
+          aboutHandler={ this.props.aboutHandler }
+          resumeHandler={ this.props.resumeHandler }
+          projectHandler={ this.props.projectHandler }
+        />
+      </div>
 
       <div className="row banner">
         <div className="banner-text">
@@ -50,4 +42,27 @@ class Header extends Component {
   }
 }
 
-export default Header;
+class HeaderNav extends Component {
+  render() {
+    return (
+      <nav id="nav-wrap" className="headerNav">
+
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" className="nav">
+          <li className="current"><a className="smoothscroll" href="#home" onClick={this.props.frontpageHandler}>Home</a></li>
+          <li><a className="smoothscroll" href='#about' onClick={this.props.aboutHandler}>About</a></li>
+	        <li><a className="smoothscroll" href='#resume' onClick={this.props.resumeHandler}>Resume</a></li>
+          <li><a className="smoothscroll" href="#projects" onClick={this.props.projectHandler}>Projects</a></li>
+          {/* <li><a className="smoothscroll" href="#food" onClick={this.props.foodHandler}>Food</a></li> */}
+            
+          {/* <li><a className="smoothscroll" href="#contact" onClick={this.props.contactHandler}>Contact</a></li> */}
+        </ul>
+
+      </nav>
+    );
+  }
+}
+
+export { Header, HeaderNav };
