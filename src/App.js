@@ -20,6 +20,7 @@ class App extends Component {
       foo: 'bar',
       resumeData: {},
       frontpage: true,
+      about: false,
       resume: false,
       project: false,
       food: false
@@ -139,7 +140,8 @@ class App extends Component {
           : null}
         </div>
 
-        <Footer data={this.state.resumeData.main}/>
+        {/* <Footer data={this.state.resumeData.main}/> */}
+        <Footer/>
       </div>
     );
   }
