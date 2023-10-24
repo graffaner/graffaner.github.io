@@ -8,14 +8,14 @@ class Header extends Component {
     return (
       <header id="home">
 
-      <div>
-        <HeaderNav
-          frontpageHandler={ this.props.frontpageHandler }
-          aboutHandler={ this.props.aboutHandler }
-          resumeHandler={ this.props.resumeHandler }
-          projectHandler={ this.props.projectHandler }
-        />
-      </div>
+      <HeaderNav
+        navClassName="headerNav"
+        frontpage={ true }
+        frontpageHandler={ this.props.frontpageHandler }
+        aboutHandler={ this.props.aboutHandler }
+        resumeHandler={ this.props.resumeHandler }
+        projectHandler={ this.props.projectHandler }
+      />
 
       <div className="row banner">
         <div className="banner-text">
@@ -44,18 +44,25 @@ class Header extends Component {
 
 class HeaderNav extends Component {
   render() {
+    const navClassName = this.props.navClassName;
+    const homeListClassName = this.props.frontpage ? 'current' : '';
+    const aboutListClassName = this.props.about ? 'current' : '';
+    const resumeListClassName = this.props.resume ? 'current' : '';
+    const projectListClassName = this.props.project ? 'current' : '';
+    const foodListClassName = this.props.food ? 'current' : '';
+
     return (
-      <nav id="nav-wrap" className="headerNav">
+      <nav id="nav-wrap" className={navClassName}>
 
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
         <ul id="nav" className="nav">
-          <li className="current"><a className="smoothscroll" href="#home" onClick={this.props.frontpageHandler}>Home</a></li>
-          <li><a className="smoothscroll" href='#about' onClick={this.props.aboutHandler}>About</a></li>
-	        <li><a className="smoothscroll" href='#resume' onClick={this.props.resumeHandler}>Resume</a></li>
-          <li><a className="smoothscroll" href="#projects" onClick={this.props.projectHandler}>Projects</a></li>
-          {/* <li><a className="smoothscroll" href="#food" onClick={this.props.foodHandler}>Food</a></li> */}
+          <li className={homeListClassName}><a className="smoothscroll" href="#home" onClick={this.props.frontpageHandler}>Home</a></li>
+          <li className={aboutListClassName}><a className="smoothscroll" href='#about' onClick={this.props.aboutHandler}>About</a></li>
+	        <li className={resumeListClassName}><a className="smoothscroll" href='#resume' onClick={this.props.resumeHandler}>Resume</a></li>
+          <li className={projectListClassName}><a className="smoothscroll" href="#projects" onClick={this.props.projectHandler}>Projects</a></li>
+          {/* <li className={foodListClassName}><a className="smoothscroll" href="#food" onClick={this.props.foodHandler}>Food</a></li> */}
             
           {/* <li><a className="smoothscroll" href="#contact" onClick={this.props.contactHandler}>Contact</a></li> */}
         </ul>

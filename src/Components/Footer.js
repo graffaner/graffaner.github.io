@@ -3,12 +3,8 @@ import { Medium, Linkedin, Github } from './Social';
 
 class Footer extends Component {
   render() {
-
-    // if(this.props.data){
-    //   var networks= this.props.data.social.map(function(network){
-    //     return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-    //   })
-    // }
+    const today = new Date();
+    const thisYear = today.getFullYear();
 
     return (
       <footer>
@@ -20,9 +16,9 @@ class Footer extends Component {
               <Github/>
             </ul>
 
-            {/* <ul className="copyright">
-                <li>&copy; Copyright 2017 Tim Baker</li> 
-            </ul> */}
+            <ul className="copyright">
+                <li>&copy; Copyright {thisYear} Lei Chen</li> 
+            </ul>
 
           </div>
           <div id="go-top">

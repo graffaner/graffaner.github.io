@@ -48,17 +48,17 @@ class Portfolio extends Component {
     return (
       
       <section id="about">
-
-        <div>
-          <HeaderNav
-            frontpageHandler={ this.props.frontpageHandler }
-            aboutHandler={ this.props.aboutHandler }
-            resumeHandler={ this.props.resumeHandler }
-            projectHandler={ this.props.projectHandler }
-          />
-        </div>
-
         <div id="home"></div>
+
+        {/* Nav Bar */}
+        <HeaderNav
+          navClassName="compNav"
+          about={ true }
+          frontpageHandler={ this.props.frontpageHandler }
+          aboutHandler={ this.props.aboutHandler }
+          resumeHandler={ this.props.resumeHandler }
+          projectHandler={ this.props.projectHandler }
+        />
 
         <div className="row">
           <div className="column">

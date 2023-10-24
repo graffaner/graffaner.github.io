@@ -106,18 +106,17 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-      
-        <div>
-          <HeaderNav
-            frontpageHandler={ this.props.frontpageHandler }
-            aboutHandler={ this.props.aboutHandler }
-            resumeHandler={ this.props.resumeHandler }
-            projectHandler={ this.props.projectHandler }
-          />
-        </div>
-        
-        {/* <div id="home"></div> */}
+        <div id="home"></div>
 
+        <HeaderNav
+          navClassName="compNav"
+          resume={ true }
+          frontpageHandler={ this.props.frontpageHandler }
+          aboutHandler={ this.props.aboutHandler }
+          resumeHandler={ this.props.resumeHandler }
+          projectHandler={ this.props.projectHandler }
+        />
+        
         {/* Skills Section */}
         <div className="row skill">
           <div className="three columns header-col">
