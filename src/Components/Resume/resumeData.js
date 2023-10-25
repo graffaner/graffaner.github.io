@@ -1,296 +1,276 @@
 const resume = {
-    "skillmessage":"",
-    "education":[
+    "skillmessage": "",
+    "education": [
       {
-        "school":"Georgia Institute of Technology",
-        "degree":"M.S. Computer Science",
-        "graduated":"Spring 2021 - 2024, GPA: 3.87/4.00",
-        "description":[
-          "Specialization in Machine Learning"
-        ],
-        "othertitle":["Courses"],
-        "otherdesc":{
-          "Courses":[
-            "(A) CS6200 - Graduate Introduction to Operating Systems",
-            "(A) CS7647 - Machine Learning for Trading",
-            "(A) CS6300 - Software Development Process",
-            "(A) CSE6242 - Data & Visual Analytics",
-            "(B) CS6400 - Database Systems Concepts & Design",
-            "(A) CS6476 - Computer Vision",
-            "(A) CS6603 - AI, Ethics, and Society",
-            "(A) CS7632 - Game AI",
-            "(Current) CS7641 - Machine Learning",
-            "(Next) CS6515 - Introduction to Graduate Algorithms"
-          ]
-        }
+        "school": "University of Delaware",
+        "degree": "Ph.D. Physics",
+        "graduated": "2011 - 2016",
+        //"description": [
+          //"Specialization in Machine Learning"
+        //],
+        //"othertitle":["Courses"],
+        //"otherdesc":{
+          //"Courses":[
+            //"(A) CS6200 - Graduate Introduction to Operating Systems",
+            //"(A) CS7647 - Machine Learning for Trading",
+            //"(A) CS6300 - Software Development Process",
+            //"(A) CSE6242 - Data & Visual Analytics",
+            //"(B) CS6400 - Database Systems Concepts & Design",
+            //"(A) CS6476 - Computer Vision",
+            //"(A) CS6603 - AI, Ethics, and Society",
+            //"(A) CS7632 - Game AI",
+            //"(Current) CS7641 - Machine Learning",
+            //"(Next) CS6515 - Introduction to Graduate Algorithms"
+          //]
+        //}
       },
       {
-        "school":"University of Texas at Austin",
-        "degree":"B.S. Mechanical Engineering Honors",
-        "graduated":"May 2018, GPA: 3.92/4.00",
-        "description":[
-          "Engineering Honors Program: Honors Thesis - Safety Risks with DIY Electric Rideables",
-          "Accolades: Mechatronics Certificate, Engineer-in-Training (EIT 64856)",
-          "Clubs & Activities: Tau Beta Pi, UT Fire Research, ASME",
-        ],
-        "othertitle":[
-          "Graduate School Admission (2018)"
-        ],
-        "otherdesc":{
-          "Graduate School Admission (2018)":[
-            "Georgia Tech joint with Seoul National University",
-            "University of Michigan"
-          ]
-        }
+        "school": "Colorado State University",
+        "degree": "Master's Physics",
+        "graduated": "2006 - 2008",
+        //"description":[
+          //"Engineering Honors Program: Honors Thesis - Safety Risks with DIY Electric Rideables",
+          //"Accolades: Mechatronics Certificate, Engineer-in-Training (EIT 64856)",
+          //"Clubs & Activities: Tau Beta Pi, UT Fire Research, ASME",
+        //],
+        //"othertitle":[
+          //"Graduate School Admission (2018)"
+        //],
+        //"otherdesc":{
+          //"Graduate School Admission (2018)":[
+            //"Georgia Tech joint with Seoul National University",
+            //"University of Michigan"
+          //]
+        //}
+      },
+      {
+        "school": "Beijing Normal University",
+        "degree": "Bachelor's Physics",
+        "graduated": "2000 - 2004",
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Micah Group",
-        "title":"Data Engineer",
-        "years":"Sept 2022 - Present",
-        "description":[
-          "Developed document extraction microservice in FastAPI to process over 900 financial documents via (Google Document AI, OCR, and custom grouping algorithm).",
-          "Implemented auto-decision feature to automatically approve/deny over \$31.8M loan requests based on historical banking and credit report data.",
-          "Scope included developing CRUD operations with Django REST API, deploying to GCP Cloud Run/Functions using Github Actions, and develop new features with feature flags and CI/CD.",
+        "company": "Micah Group, Inc.",
+        "title": "Senior Software Engineer",
+        "years": "Feb 2023 - Present",
+        "description": [
+          "Building and maintaining a successful SaaS platform for financial lending that processes $2 MM commercial loans per year",
+          "Creating microservices and APIs via FastAPI and containerization that significantly improve scalability and maintainability",
+          "Integrating financial data from external vendors that streamlines user workflow, e.g. 500 consumer credit data from Equifax",
+          "Migrating to event driven architecture with GCP Pub/Sub and Redis to boost asynchronous processing capability",
+          "Leading a team to build data platform and analytics to serve business and customer insights",
         ]
       },
       {
-        "company":"IPSDI, Inc.",
-        "title":"Software Engineer - Part Time",
-        "years":"Oct 2022 - Present",
-        "description":[
-          "Created data pipelines to normalize (120+) fire department's dispatch data (100M+ incidents) with TypeScript, AWS (Lambda, S3, ECS, Cloudwatch, etc). and Github Actions.",
-          "Deployed API pollers to AWS with serverless architecture.",
-          "Create automated workflows with Github Actions (Sends a SNS message to trigger a Lambda function to perform a query on a PostgreSQL RDS database through VPC access)."
+        "company": "Flint Hills Resources, LLC.",
+        "title": "Senior Software Engineer",
+        "years": "Aug 2020 - Dec 2022",
+        "description": [
+          "Built cloud based enterprise applications for digital business processes",
+          "Built time series forecasting using XGBoost and AutoGluon etc., to predict customer demand and optimize production scheduling, which boosted profit margin by $0.3 MM / year",
+          "Built efficient feature engineering (one-hot encoding and scaling etc.) and model deployment pipeline for ML models",
+          "Implemented effective data engineering pipelines to ingress and egress 100 MB data / day",
+          "Improved backend logics and APIs to serve analytical data with 5x lower latency",
+          "Led collaboration with platform provider, C3.Ai, contributed to product roadmap (feature store, model registry etc.)",
         ]
       },
       {
-        "company":"Altect, Inc.",
-        "title":"Vice President of Engineering",
-        "years":"Sept 2019 - Aug 2022",
-        "description":[
-          "Altect’s business is to develop and provide novel fire protection technologies for emerging, clean energy technologies including electric vehicle and energy storage.",
-          "Co-wrote a patent (20220094014) and SBIR grant proposals that brought in $1.2M.",
-          "Developed main software \& control and data pipeline for MVP prototype via JavaScript, HTML/CSS, Flask API, PLC, SQL, and FireBase. Created working prototype to mitigate fire/explosion hazards due to Lithium-based battery failures.",
+        "company": "Seagate Technology, LLC.",
+        "title": "Senior Engineer",
+        "years": "Feb 2017 - Aug 2020",
+        "description": [
+          "Developed automation software with Pythonn for improved manufacturing control",
+          "Successfully implemented signal processing and numerical calculation algorithm, optimized runtime for rigorous production line requirement",
+          "Researched and applied GPU computing to tremendously accelerate large volume numerical data processing at production line",
+          "Effectively debugged and troubleshot production issue",
         ]
       },
       {
-        "company":"UT Fire Research",
-        "title":"Research Engineer",
-        "years":"Sept 2019 - June 2020",
-        "description":[
-          "Developed a surrogate battery energy storage system that releases safe non-flammable gases similar to that of a rack-level failure.",
-          "Created an array of custom wireless sensors tuned to detect the dissemination of the safe non-flammable gas.",
-          "Sensors upload data via REST API into a local MySQL server on a laptop.",
-          "Participated in field studies with the Honolulu Fire Department and the Phoenix Fire Department to align research with industry."
+        "company": "Applied Diamond, Inc.",
+        "title": "Research Scientist",
+        "years": "Dec 2016 - Feb 2017",
+        "description": [
+          "Developed diamond detectors for detecting high energetic particles at beam line at national / international labs, such as SLAC, Argonne, Brookhaven National Lab and CERN etc.",
+          "Improved diamond detector processing and manufacturing techniques, using experience in semiconductor processing techniques, such as photolithography, metal sputtering, plasma etching and circuit board design etc.",
+          "Improved the characterization of diamond detectors based on semiconductor physics",
+          "Improved diamond crystal growth for better materials quality",
         ]
       },
       {
-        "company":"Tesla, Inc.",
-        "title":"Quality Data Science & Systems",
-        "years":"Jun 2019 - Sept 2019",
-        "description":[
-          "Was in transit for a formal position as an Associate Data Scientist",
-          "Developed micro-web applications in Python Flask to promote efficient communication of critical information",
-          "Analyzed quality metrics in compliance with Tesla's Quality Management System (QMS)",
-          "Autonomously maintained critical information via Confluence REST API’s.",
-          "Offered a formal position as an Associate Process Engineer for the Model 3 Drive Unit"
+        "company": "University of Delaware",
+        "title": "Graduate Researcher",
+        "years": "Jul 2011 - Nov 2016",
+        "description": [
+          "Applied design of experiment, bivariate analysis, statistical modeling etc. in research to optimize process and interpret results quantitatively",
+          "Visualized data effectively in various format using matplotlib and Bokeh libraries in Python",
+          "Quantified features in microscopic images using image segmentation algorithms with Python",
+          "Analyzed feature size distribution using statistical models, and tested their goodness-of-fit for the first time in this scientific field",
+          "Co-invented a novel depth profiling method, by developing a depth model and using iterative and optimization algorithms in Python",
+          "Reduced significantly the experimental time by developing an effusion model for deposition process",
+          "Developed the entire deposition control program using LabVIEW",
+          "Collaborated with students from various academic fields on research projects",
         ]
       },
       {
-        "company":"Tesla, Inc.",
-        "title":"Quality Engineering Technician II",
-        "years":"Jun 2018 - Jun 2019",
-        "description":[
-          "Employee of the Quarter - Q3 2018",
-          "Successfully saved the company $10.5M in the third and fourth quarters of 2018 by coordinating with an engineering team and senior managers to develop and implement a new production line",
-          "Deployed stand-alone applications in Java, Python, and MySQL as serviceable quality tools",
-          "Maximized efficiency and quality in accordance with the company’s standards by utilizing root-cause analysis and lean manufacturing methodologies in the Model 3 battery module production"
+        "company": "Abound Solar, Inc.",
+        "title": "R&D Test Engineer",
+        "years": "Oct 2008 - May 2011",
+        "description": [
+          "Successfully developed applications for production QA systems that integrates digital data acquisition and ETL process",
+          "Effectively and timely analyzed production data on a regular basis",
+          "Collaborated with different business groups, presented data and communicated results",
         ]
       },
       {
-        "company":"UT Fire Research",
-        "title":"Undergraduate Research Assistant",
-        "years":"Feb 2017 - May 2018",
+        "company": "Colorado State University",
+        "title": "Graduate Researcher",
+        "years": "Aug 2006 - Aug 2008",
         "description":[
-          "Contributed to research for the automation of a testing facility that simulated indoor flashover fires",
-          "Acted as the leader for a team of undergraduate students, providing mentorship and coaching where needed",
-          "Conducted comprehensive research into the lithium-ion battery degredation"
+          "Statistically analyzed regression between semiconductor material thickness and solar device performance",
+          "Built successfully a material growth model to explain this regression physically",
+          "Tought college physics lab and recitation, served individual tutoring and office hours",
         ]
       },
       {
-        "company":"iKids, Inc.",
-        "title":"Robotics Instructor",
-        "years":"Aug 2017 - Dec 2017",
-        "description":[
-          "Engaged elementary students in STEM fields through Lego Mindstorms NXT robotic kits."
+        "company": "Beijing Education Information Network Service Center CO., Ltd",
+        "title": "System Engineering",
+        "years": "Apr 2006 - Jul 2006",
+        "description": [
+          "Server and data storage system maintenance",
+          "Linux system administration",
+          "IT support to other organization",
         ]
       },
       {
-        "company":"Applied Research Laboratories",
-        "title":"Student Intern",
-        "years":"Mar 2016 - Dec 2016",
-        "description":[
-          "Expedited the full-cycle of system development, designing, commissioning, fabricating, and assembly of experimental test systems according to exact specifications by utilizing an extensive knowledge of CAD software",
-          "Developed new parts and modified existing parts in PTC Creo CAD software to enhance functionality",
-          "Created accurate engineering drawings by leveraging Geometric Dimensioning and Tolerancing practices",
-          "Maintained an attentive, professional attitude while communicating with vendors to commission custom parts",
-          "Supervised the packaging, shipping, and receiving of custom and original equipment parts"
+        "company": "Inetsoft Technology Corp",
+        "title": "Software Engineer",
+        "years": "Feb 2005 - Feb 2006",
+        "description": [
+          "Software testing of products functionality on Windows and Linux system",
+          "Test cases design and automation",
         ]
-      }
+      },
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"100%"
+        "name": "Python",
+        "level": "100%"
       },
       {
-        "name":"Github",
-        "level":"100%"
+        "name": "JavaScript",
+        "level": "80%"
       },
       {
-        "name":"SQL",
-        "level":"90%"
+        "name": "Java",
+        "level": "50%"
       },
       {
-        "name":"Google Cloud Platform",
-        "level":"70%"
+        "name": "C++",
+        "level": "40%"
       },
       {
-        "name":"Amazon Web Services",
-        "level":"70%"
+        "name": "Golang",
+        "level": "20%"
       },
       {
-        "name":"Java",
-        "level":"50%"
+        "name": "MATLAB",
+        "level": "50%"
       },
       {
-        "name":"JavaScript",
-        "level":"50%"
+        "name": "LabVIEW",
+        "level": "50%"
       },
       {
-        "name":"Solidworks",
-        "level":"50%"
+        "name": "Git",
+        "level": "90%"
       },
       {
-        "name":"React JS",
-        "level":"20%"
-      }
+        "name": "Shell",
+        "level": "50%"
+      },
+      {
+        "name": "SQL",
+        "level": "70%"
+      },
+      {
+        "name": "Postgres",
+        "level": "70%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      },
+      {
+        "name": "Cassandra",
+        "level": "60%"
+      },
+      {
+        "name": "Neo4j",
+        "level": "30%"
+      },
+      {
+        "name": "PyTest",
+        "level": "70%"
+      },
+      {
+        "name": "Jasmine Test Framework",
+        "level": "70%"
+      },
+      {
+        "name": "Docker",
+        "level": "70%"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "level": "70%"
+      },
+      {
+        "name": "Amazon Web Services",
+        "level": "70%"
+      },
+      {
+        "name": "React Framework",
+        "level": "40%"
+      },
+      {
+        "name": "Angular Framework",
+        "level": "20%"
+      },
+      {
+        "name": "Github",
+        "level": "90%"
+      },
+      {
+        "name": "GPU Computing",
+        "level": "30%"
+      },
+      {
+        "name": "Statistics",
+        "level": "70%"
+      },
+      {
+        "name": "Machine Learning",
+        "level": "50%"
+      },
+      {
+        "name": "Time Series Analysis",
+        "level": "30%"
+      },
+      {
+        "name": "Signal Processing",
+        "level": "50%"
+      },
+      {
+        "name": "Image Processing",
+        "level": "30%"
+      },
+      {
+        "name": "Numerical Modeling",
+        "level": "40%"
+      },
     ],
     "courses":[
-      {
-        "number":"CS7632",
-        "name":"Game AI"
-      },
-      {
-        "number":"CS6603",
-        "name":"AI, Ethics, and Society"
-      },
-      {
-        "number":"CS6476",
-        "name":"Computer Vision"
-      },
-      {
-        "number":"CS6400",
-        "name":"Database Systems Concepts & Design"
-      },
-      {
-        "number":"CSE6242",
-        "name":"Data & Visual Analytics"
-      },
-      {
-        "number":"CS6300",
-        "name":"Software Development Process"
-      },
-      {
-        "number":"CS7647",
-        "name":"Machine Learning for Trading"
-      },
-      {
-        "number":"CS6200",
-        "name":"Graduate Introduction to Operating Systems"
-      },
-      {
-        "number":"ME344",
-        "name":"Dynamic Systems & Controls"
-      },
-      {
-        "number":"ME379M",
-        "name":"Theory/Design of Mechanical Measurements"
-      },
-      {
-        "number":"ME348D",
-        "name":"Mechatronics II"
-      },
-      {
-        "number":"ME348C",
-        "name":"Mechatronics I"
-      },
-      {
-        "number":"ME340",
-        "name":"Mechatronics (Undergrad)"
-      },
-      {
-        "number":"ME679",
-        "name":"Undergraduate Honors Thesis"
-      },
-      {
-        "number":"ME339",
-        "name":"Heat Transfer"
-      },
-      {
-        "number":"ME334",
-        "name":"Materials Engineering"
-      },
-      {
-        "number":"ME338",
-        "name":"Machine Elements"
-      },
-      {
-        "number":"ME330",
-        "name":"Fluid Mechanics"
-      },
-      {
-        "number":"ME318M",
-        "name":"Engineering Computational Methods"
-      },
-      {
-        "number":"ME324",
-        "name":"Dynamics"
-      },
-      {
-        "number":"EM319",
-        "name":"Mechanics of Solids"
-      },
-      {
-        "number":"ME326",
-        "name":"Thermodynamics"
-      },
-      {
-        "number":"M427J",
-        "name":"Differential Equations"
-      },
-      {
-        "number":"M340L",
-        "name":"Linear Algebra"
-      },
-      {
-        "number":"EM306",
-        "name":"Statics"
-      },
-      {
-        "number":"ME353",
-        "name":"Engineering Finance"
-      },
-      {
-        "number":"ME335",
-        "name":"Engineering Statistics"
-      },
-      {
-        "number":"CS312",
-        "name":"Introduction to Programming (Java)"
-      }
     ]
   }
 

@@ -1,27 +1,22 @@
 import React from 'react';
 
 const aboutData = {
-    aboutme:[
-        "Hey, welcome to my web! I'm currently working as a Data Engineer at a fintech start up called Micah! Our company provides a web platform for bank lenders to interface with their customers. Although my job title is formally data engineer, I have mostly been working on backend features. I found to really enjoy working in the backend and will most likely tailor my career more towards software than data.",
-        "Aside from my full-time position, I am also a part-time computer science Masters student at Georgia Tech with a specialization in machine learning. I'm expecting to graduate in Spring 2024; after 3 long years. While I have my reservations about academics and the pursuit for higher education, I got to meet a lot of amazing people and gain fundamental knowledge in a field I pivoted to.",
-        'Given my prior experience in the fire industry, I have also been fortunate enough to contribute part-time at a non-profit. IPSDI is a non-profit that "procures, assembles, analyzes, and reports information from fire, rescue, and law enforcement data." While I do have a lot on my plate, I only commit around 5 to 10 hrs per week outside of work hours. This helps me give back to the community as well as supplement a more diverse software experience.',
-        "In my personal time, I love to play games like Valorant and Apex Legends. Gaming helps exercise my decision-making and awareness. As a poor example, when I'm driving I refer to my rear-view mirror as my mini-map and try to be aware of all the cars around me. When it's time to make a lane change, I know I can be confident that my blind-spot is clear. In the winter season, I am an avid snowboarder. I'm an Epic season pass holder and have been to Whistler, Breckinrige, Keystone, Vail, Beaver Creek, Palisades, Kirkwood, North Star, Heavenly, Steven's Pass, Mammoth Mountain, and June Mountain. I also love to play tennis and go bowling when I get the chance. And finally after all that, if I have time, I am passionate about my personal projects and Medium blogs! Check out my active & previous projects out in the projects tab."
+    aboutme: [
+      "I have been studying as a Physicist since college and through my Ph.D. Writing computer programs and coding have always been an interest / hobby to me. I was first exposed to computer programming when I was in elementary school, a time when Intel Pentium processors were just above the horizon. I can't recall the name of the programming language I learnt at that time, but only remember the code I wrote would drive a cursor on the screen (which was still CRT) to draw particular geometric shapes. I remember we called that cursor turtle for some reason (anyone remember what this language was?). However, I didn't continue programming until college, because I didn't think my family could afford a computer back then and I still thought it's just a hobby.",
+      "During the first week of college, my roommate brought to our dorm a computer, more accurately a desktop with a probably 15 inch CRT monitor. And he already started talking about HTML. That's the first time I resumed my computer journey since my break in elementary school. I was so fascinated by it. I remembered I learnt and programmed in C and MATLAB mostly in college, and most of the code was written to implement numerical calculation related to physics, matrix multiplication, circling orbits of stars, chaos, to just name a few. I was amazed by the power of the computation from the lines of code that, the computation that I could never do by hand.",
+      "Then fast forward to now, I have become a software developer, although not through my education at school. And I have gradually transformed my idea of software development, from purely programming / computing to crafting software product. Developing a software product is much more than just coding. A software product needs to be designed such that it's easy to use, maintain, extend and accommodate changes. These take a wholistic viewpoint of the product, beyond writing good code. I feel it's accumulation of experience, as well as knowledge, but maybe more of experience as someone become more seasoned software developer. I can learn the basics of a different programming language in a few weeks probably, but I have to gain the experience of building products gradually in years. And these experience comes from not only working in software development, but also from studying and working in other areas, even from daily life.",
+      "Now I'm on this journey. I really enjoy it and would love to build awesome software products with you all out there.  I hope these products would free people from their daily grind, so we can spend more of our time on living a meaningful life.  I also hope these software products would help people archieve their dreams.  I'm also interested in hearing what you all are building."
     ],
-    why_meche:[
-        "Legos. I'm a victim to their mission statement, 'to inspire and develop the builders of tomorrow.' I became a prisoner to the dopamine rush of opening that new Lego set and committing the next several hours to follow their prescribed instructions. After the instruction booklet vanished, I couldn't help but cannibalize and improvise with other sets to exercise my creativity. They show you how their engineers would design a structure and then encourage you to try alternative methods. Lego introduced me to spatial reasoning, structural integrity, and fundamental engineering concepts. ",
-        "Behind the scenes, there's so many levels of engineering that goes into Legos. From robotics to model designers to mass manufacturing techniques. The whole life cycle of Legos inspired me to be an engineer. Aside from toys, I've always looked to devise solutions for daily grinds. I made a basketball chute for dirty clothes to help promote laundry collection. I made a pulley system around my room so I could turn off the lights remotely from my bed. I made an electric skateboard so I didn't have to walk in the heat. These solutions weren't derived from aspiring to be an engineer, I just looked for practical solutions for relevant problems. ",
-        "Just like legos, I want to stack foundational building blocks together to mature into a well-rounded engineer. I chose mechanical engineering because of the fundamental diversity and application to problem-solving holistically. I'm always looking to expand my skillset, even outside of mechanical engineering. But most importantly, I'm looking to have fun with my career. Remember... growing up doesn't mean you stop playing with Legos, it just means buying your own."
+    why_meche: [
     ],
-    why_cs:[
-        "I've always loved making tools. Growing up as a kid, computers were new and under-developed. These were the days when Netflix used to mail DVD's. The only tools accessible to me were all mechanical: kitchen gadgets, vehicles, legos, furniture, etc. However, as I matured, so did software. I got to see the digital age develop firsthand. And soon, the need for more software tools became apparent. This original passion to develop tools to increase quality of life still carries on. Whether it be making apps or constructing scalable infrastructure to support data scientists and software engineers; this is my carrer goal."
+    why_cs: [
     ],
-    interests:[
-        "Snowboarding",
-        "Blogging",
-        "Tennis",
-        "Bowling",
-        "Short-Term Investing",
-        "Computer Games"
+    interests: [
+        "Software Engineerign",
+        "ML Engineeringn",
+        "Quant Finance",
+        "Computer Games",
+        "Tennis"
     ]
 };
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
-import Header from './Components/Header';
+import { Header } from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About/About';
 import AboutBrief from './Components/About/AboutBrief';
@@ -20,6 +20,7 @@ class App extends Component {
       foo: 'bar',
       resumeData: {},
       frontpage: true,
+      about: false,
       resume: false,
       project: false,
       food: false
@@ -139,7 +140,8 @@ class App extends Component {
           : null}
         </div>
 
-        <Footer data={this.state.resumeData.main}/>
+        {/* <Footer data={this.state.resumeData.main}/> */}
+        <Footer/>
       </div>
     );
   }
