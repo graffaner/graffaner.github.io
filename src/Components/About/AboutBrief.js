@@ -8,7 +8,7 @@ class About extends Component {
 
   render() {
     var name = "Lei Chen";
-    var profilepic = "images/profilepic.jpg";
+    var profilepic = "images/profile_photo.jpg";
     var bio = (
       <p>
         I engineer technological solutions to solve quantitative puzzles and I’m passionate about applying my skills to improving software experience.  My Physics training well prepared me for abstracting real world subjects to mathematical models, architecting digital solutions and crafting software. I'd love to build software to help people one <b>bit</b> at a time.
