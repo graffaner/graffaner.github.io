@@ -18,6 +18,8 @@ class Footer extends Component {
 
             <ul className="copyright">
                 <li>&copy; Copyright {thisYear} Lei Chen</li> 
+                <li>Photo by <a href="https://unsplash.com/@anderrek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ander Peña</a> on <a href="https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-moon-in-the-sky-REAMd8gKbPc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </li>
             </ul>
 
           </div>
