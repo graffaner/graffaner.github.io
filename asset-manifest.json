@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/leichen_web/static/css/main.5facb584.chunk.css",
+    "main.js": "/leichen_web/static/js/main.b746edcd.chunk.js",
+    "main.js.map": "/leichen_web/static/js/main.b746edcd.chunk.js.map",
+    "runtime-main.js": "/leichen_web/static/js/runtime-main.35f8ca20.js",
+    "runtime-main.js.map": "/leichen_web/static/js/runtime-main.35f8ca20.js.map",
+    "static/js/2.8d87c3c6.chunk.js": "/leichen_web/static/js/2.8d87c3c6.chunk.js",
+    "static/js/2.8d87c3c6.chunk.js.map": "/leichen_web/static/js/2.8d87c3c6.chunk.js.map",
+    "index.html": "/leichen_web/index.html",
+    "precache-manifest.73e1601f44a72765dcd047f0c6dae9f7.js": "/leichen_web/precache-manifest.73e1601f44a72765dcd047f0c6dae9f7.js",
+    "service-worker.js": "/leichen_web/service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "/leichen_web/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.8d87c3c6.chunk.js.LICENSE.txt": "/leichen_web/static/js/2.8d87c3c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35f8ca20.js",
+    "static/js/2.8d87c3c6.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.b746edcd.chunk.js"
+  ]
+}
