@@ -2,7 +2,7 @@
   "name": "Website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thephysicistjourney.com",
+  "homepage": "https://graffaner.github.io/",
   "dependencies": {
     "@babel/runtime": "^7.23.2",
     "jquery": "^3.5.1",
