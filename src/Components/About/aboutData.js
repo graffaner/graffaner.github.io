@@ -12,8 +12,8 @@ const aboutData = {
     why_cs: [
     ],
     interests: [
-        "Software Engineerign",
-        "ML Engineeringn",
+        "Software Engineering",
+        "ML Engineering",
         "Quant Finance",
         "Computer Games",
         "Tennis"
