@@ -1,8 +1,8 @@
 {
   "name": "Website",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
-  "homepage": "https://graffaner.github.io/leichen_web/",
+  "homepage": "https://graffaner.github.io",
   "dependencies": {
     "@babel/runtime": "^7.23.2",
     "jquery": "^3.5.1",
